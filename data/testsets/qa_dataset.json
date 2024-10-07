@@ -1,0 +1,774 @@
+{
+    "queries": {
+        "a897c2bb-32dd-40ab-9f02-289580197fe5": "What is the caution given regarding the use of exceptions in programming according to the context information?",
+        "f8233fb6-7a66-422c-a230-f755c34b611c": "What exceptions can be raised when using the `fetch_smalltable_rows` function and what do they represent?",
+        "a8fe4930-9583-402a-8677-9257bde772ce": "Why might it be necessary to write around or suppress warnings given by `pylint` despite its benefits?",
+        "b3389de0-c379-4364-9a7e-f35a4a3bbb84": "Which rule states that there should be no whitespace inside parentheses, brackets, or braces?",
+        "e522f508-0752-40f3-8f97-422207e664e1": "What is the purpose of using type annotations in Python according to PEP-484?",
+        "f9c341b7-8cfd-4b4d-b0c1-7d4087db0ba6": "What is the general rule for default argument values in most cases according to the context information?",
+        "b2dd7426-711d-452a-9418-39113741b191": "Question:",
+        "d30dea74-8589-4336-a2b8-9ab72156741c": "Question:",
+        "f4f5391c-474a-47ab-acaf-dbf318d03a28": "Question: Why is it recommended to define long or multi-lined lambda functions as regular nested functions, according to the given coding guidelines?",
+        "7e2c47de-5a92-42bc-81de-9ef84f50a012": "Question: Based on the given convention for namespace management, what can be inferred about the source of an identifier `x.Obj`?",
+        "a27353e2-ce44-4b96-b5b0-5caa95050182": "What is the preference given in the context regarding the use of Markdown in external text?",
+        "6eab22e2-6321-4ee3-a42e-bb75f949f593": "What is the recommended style for writing docstrings for modules, functions, and methods according to the context information?",
+        "e8b3bae5-46d7-461e-97bb-304fb61348fc": "Question: Based on the context information, can you identify any specific types of errors that a linting tool might help catch that could be easily missed during manual code review? Provide an example of each error type mentioned in the text.",
+        "14a7a982-2d9a-4f32-aaf5-7deb9ad21fa2": "Question: Why does using a package manager like npm or PyPI help avoid conflicts in module names and incorrect imports? Provide an example of how it makes finding modules easier.",
+        "e0b1a2be-7858-495c-9c40-5a0f247bafcd": "Which import statements should be put on separate lines, and which can be merged into a single line according to the given formatting guidelines?",
+        "daee356b-fcf4-4017-93b4-2ccdc82b5b5e": "In what way does error-handling with try-catch exceptions keep the control flow of normal operation code uncluttered according to the context information?",
+        "7e6c37de-19b7-471f-a7d7-36989ae95473": "What command is used to get a list of `pylint` warnings with their symbolic names?",
+        "2f94566f-c018-454c-8272-e9298cdef917": "What are function and method decorators, and when should they be used according to the context information?",
+        "ce628929-5f00-4585-82c4-cf6942f1fba5": "What is the role of exceptions in programming as described in the context information?",
+        "faaf1d53-7094-471d-82bc-8ca50b74054b": "What is the purpose of using type annotations in Python functions or methods?",
+        "86f727e6-4824-498a-b65c-7296d7bceba6": "What is the recommended way to import modules according to the given guidelines?",
+        "f80f95d5-1430-46b5-9760-bee952c5bc62": "What can be said about the usefulness of the given context information?",
+        "b464685b-9950-48a5-9a9e-7ca86039e440": "Question: Why does using a generator result in simpler code compared to creating a list of values at once? (Refer to the context information under point 2.9.2 Pros)",
+        "5e08e055-75c8-4bed-b9af-70b502141599": "What is the topic of section 3.19 in the given document?",
+        "20894919-7097-4ba9-99d1-a24a5de2a9d0": "Question 1: What is the purpose of declaring type aliases in the given context, and what are the naming conventions for such aliases?",
+        "73564ac4-5206-4fc2-8cfe-c5ed07d23807": "What are the preferred variable naming conventions for mathematically heavy code according to the style guide?",
+        "638d0021-8efb-48f6-b66b-2bad5eef281c": "What is the topic of section 2.11 in the given document?",
+        "7d18c1cd-9329-4ccb-8658-57ab0d0bc389": "Why should logging functions in Python be called with string literals as their first argument instead of f-strings?",
+        "7d4c7189-e347-43f6-83bd-a026a6d9c0e5": "What is the purpose of using `from __future__ import annotations` or string class names in Python, according to the context information?",
+        "4222d4a1-7d1e-4850-8c7e-b5d4b4936042": "Question: Based on the context information, which statement is correct when it comes to using `import` statements in your code? Explain why. (Functional)",
+        "450f2476-68ab-4fee-a3cb-3eeea3c5c2fd": "What file extension must Python scripts have in order to be imported and unit tested?",
+        "71d88388-931d-4a95-be6b-0599c47c9f5b": "What are some downsides of leaving files, sockets, and other stateful resources open unnecessarily?",
+        "49fbbcb0-0baf-4c1e-814d-2297eb26f5c4": "Why does replicating package hierarchy make it harder to deploy code according to the given context?",
+        "d249a86b-9dad-4dd7-9840-46b6892f80ca": "Why is it important not to terminate lines with semicolons according to the given context?",
+        "16bd81ba-1070-412d-9b35-e4def77650e2": "What is the purpose of including module-level docstrings in test files according to Google's style guide? Provide an example of when it would be necessary to include one.",
+        "7e33f9f5-5088-4e34-bd2d-f9964f5c91f5": "What are circular dependencies and why are they considered a code smell?",
+        "1fe94945-792a-4289-8744-df489308df9b": "What is the role of `NoneType` in Python's type system and why is it important to declare arguments that can be `None`?",
+        "f19932f2-9707-4661-9d5b-aa66c099a8a3": "Where in the given text does the author mention that using a ternary operator (:?) might be harder to read than an if statement?",
+        "93d7f22e-4664-4a76-9c1c-1f163b3f6829": "Question:",
+        "125dcc89-b3c7-48d8-90f7-fb67c18e1af9": "What is the issue with using `future` statements in Python code before certain interpreter versions?",
+        "f35ac018-a3f2-45ec-8eff-1b4d1dd1ae79": "Question: Why are default iterators and operators considered simple and efficient in C++ programming? Give an example of a function that uses default operators and explain how its genericity is beneficial.",
+        "7bfc27a6-fce4-4d18-aa8b-68bb7bd3f8ec": "What are some advantages of using language features mentioned in the context information?",
+        "0621abdc-a21e-4158-8f21-7fccef2d0978": "What are the conditions that exceptions must follow in Python according to the given context?",
+        "78eb473c-a775-4722-8103-a724371d8ab8": "Which features should be avoided in coding according to the given context?",
+        "22af28eb-85f0-4258-8d33-018db1ac272d": "Why are conditions using Python booleans considered easier to read and less error-prone than other methods, according to the context information?",
+        "c02a0d54-8e60-4f3b-aaa4-7f985aa20d27": "Why is it recommended to use parentheses sparingly in Python?",
+        "c5b4085e-db7e-408a-bc14-280ab5cd0c47": "What three guidelines should error messages follow according to the given context?",
+        "64307f51-96b7-406a-aada-222cacdde966": "Which Python modules are exempted from PEP 257's rules based on the given context?",
+        "48ad3bd6-5e52-4ce4-a864-2a1f6a0498af": "Why are single character names, except for specific cases like counters or iterators, generally discouraged in the given coding style guide?",
+        "bc449623-2e80-4412-a67f-eb47f183652b": "What is the recommended indentation style for code blocks in this coding standard?",
+        "78466a1a-34c7-49f0-9fb2-ddede20db15f": "Why are anonymous functions, also known as lambda functions or expressions, harder to read and debug compared to local named functions?",
+        "4bdd5605-3829-4c67-a5c1-78f4f361981c": "What are some advantages of using a Lisp-like programming language, such as clearer and more elegant code?",
+        "a696d969-dd75-4824-a7fc-f2c649967fe6": "What type should be used for handling text data in Python according to the given context information?",
+        "8854ffb5-9a7a-4ed0-821b-abc1fc0780e1": "What is the rule for using properties in accordance with the given context information?",
+        "db0e3170-1f1a-4f67-a8ae-a45f1873eaad": "Based on the given style guide, how should function signatures with multiple parameters be formatted? Provide an example.",
+        "c87c6d98-7eb6-412b-9bc2-70ed9640a7a4": "What is the purpose of using `from __future__ import` statements in Python?",
+        "2fe650f1-f6f5-4af7-9ef6-f7cbcc6df0ae": "Based on the context information, here are some potential questions for an upcoming quiz or examination:",
+        "85617630-cfa1-4137-a3d3-f521b9edf208": "Why can module names still collide despite using Python's packaging system? (Related to \"Module names can still collide.\")",
+        "6579f335-ac82-43e3-a01c-db65e1bf7f32": "Why is it recommended to avoid mutable global state according to the given context?",
+        "2ed3eb2b-07cd-4695-8b3b-04c0c454faff": "What are Properties used for in programming according to the given context?",
+        "c42edec9-0db4-4c11-942a-b96666d460d4": "What is the main difference between lambda functions and regular functions as defined in the context information?",
+        "5f396b4e-7268-4df1-95ff-dbf386bb7030": "What does the term \"property accessor\" refer to in the context of programming?",
+        "988dd768-219f-4a1c-88b0-607f3617d343": "Question:",
+        "d370f7c7-91be-4280-b0da-8cfe70a2a0d8": "What comment can be used in Python code to disable type checking for a specific line?",
+        "eebe9324-c6d0-48ca-9f12-803df98ed375": "What is the purpose of using `from __future__ import` statements in Python?",
+        "4553ff83-f7cc-4945-9f0b-d17c74b03288": "Question: Which function is preferable to use over map() or filter() with a lambda expression for one-liners according to the context information?",
+        "2b5f99c7-7388-442b-bb75-8146f2fcd5b2": "Why is consistency important when editing code and what are the potential consequences of not adhering to local style rules?",
+        "57065881-a2c3-4ed5-bc48-fcd6d0720944": "What is the recommended way to iterate through the keys of a dictionary in Python according to PEP 284?",
+        "80fdcbc2-a5d4-4d93-967e-9a29b1625826": "Why is it recommended to use trailing commas in sequences of items only when the closing container token does not appear on the same line as the final element?",
+        "d1f74ca1-818c-43ed-847d-8519c1f60b0a": "What is the purpose of using annotated assignments in Python when the type of a variable cannot be inferentially determined? Provide an example with the syntax.",
+        "d06d6faa-54d1-417d-9280-72079655dd09": "Question:",
+        "e73ba4b8-a903-4c9d-bb70-14a8f580099b": "What is the purpose of assigning default values to variables at the end of a function's parameter list?",
+        "5ff1e6ea-8e48-4a53-9a9d-5b9b5697fef0": "What is the purpose of using type variables in Python and how are they defined? Provide an example using the `TypeVar` from the `typing` module.",
+        "06de1479-2086-4b8b-aaa9-c581f6169cd9": "What are some \"fancy features\" offered by the Python programming language mentioned in the context information?",
+        "58dd3d6d-ef1f-491b-a240-3e33f1fae646": "What is the recommended use case for list comprehensions and generator expressions according to the context information?",
+        "95748e71-1e9a-4b05-b282-e193a7321ccf": "Based on the context information provided, here's a question that can be asked for an upcoming quiz or examination:",
+        "903ec65c-4715-46f3-901e-3f9b6315a37a": "What is the purpose of using utility classes and functions within a limited scope, as mentioned in the context information?",
+        "499439e8-89c6-484b-887c-88fcd80b7325": "What should be the naming convention of the main function in Python when using it as an executable?",
+        "9f030f06-fa38-46ae-8999-23e500e46ce6": "Why is proper punctuation, spelling, and grammar important in writing comments for source code?",
+        "8f6eb6df-b352-446f-844d-7115fbe7f048": "What are the cons of using global variables and state in design, specifically in relation to encapsulation?",
+        "0fe8b90b-9d80-430c-8e6f-cfb507fd1aa7": "Which string formatting options are approved according to the given context information?",
+        "8a0b9f78-a31e-4d47-9861-fc1b7cf10723": "What is required at the beginning of every file in the project, according to the given context?",
+        "5ff3b667-824c-49cf-a896-d3c1ee1375f3": "Question: Which Python data types, specifically, define default iterators and membership test operators (\"in\" and \"not in\")?",
+        "3a79f537-978a-4d2c-b8a0-52207a6de384": "Why is it not recommended to use mutable objects as default values in function or method definitions according to the given guidelines?",
+        "4aacdf94-f163-4f34-a9d3-8485b01c1e18": "What are the two rules specifically related to the Python programming language mentioned in the context?",
+        "8699b93f-3077-4856-88c9-33bfff50eeb4": "Question:",
+        "c8659006-05c8-4a26-af38-6880a98d3e64": "In the given Python code snippet, what value will be printed by `foo([1, 2, 3])` instead of the expected `1 2 3 4`?",
+        "707509e2-cf08-4908-8287-162b49534f28": "What is meant by the term \"nested functions\" in programming, according to the context information?",
+        "803db55d-3918-4cc6-918e-30ba5e90c5aa": "What is the recommended format for writing `TODO` comments according to the given context?",
+        "575e8521-c681-4579-bf69-db35935d8dda": "What is the advantage of using a ternary operator over an if statement, according to the context information?",
+        "df7f66cd-9acc-4ecd-b6bf-c5302371472c": "What is the rule for adding `@override` decorator when overriding a method from a base class in Python?",
+        "0d48337e-4777-415a-a941-a4385c869c6d": "What is the purpose of using decorators in Python, specifically for functions and methods?",
+        "a3352fb4-e25c-4f7f-bf39-cae056bade24": "What is the difference between nested local functions, nested classes, and inner classes according to the given context?",
+        "3a723b52-fb79-431c-bcbe-336380d8a6ad": "What are the cons of using methods with unusual names (also known as \"2.13.3 cons\") in programming?",
+        "7ba984d9-b5e4-4882-ba9c-01844bdf5143": "Why is it discouraged to use mutable global state in the given coding style guide? Provide an example of when mutable global state might be necessary and how external access to it should be implemented.",
+        "2361c121-1f57-489e-80ee-59f025864ad1": "Why can't nested functions and classes be directly tested according to the context information?",
+        "ac867524-ed59-48c4-a566-3689d00c2c57": "Why is it recommended to enable Python type analysis when updating code according to the Chromium engineering documentation?",
+        "888e2a9b-eb26-4f2a-a4ce-11683d963726": "What is the preferred way to import packages and modules according to the given context?",
+        "0158fdda-48db-42b0-8112-7995985a4004": "What is the primary dynamic language used at Google for programming?",
+        "9d052c79-943d-4750-9838-9dcb8e41e587": "What can make comprehensions or generator expressions in Python complex to read?",
+        "94a5814f-6a58-4e6c-8f33-708cf4285674": "What is the maximum line length according to the coding style guide?",
+        "2eda1b39-c44a-45e7-8734-d6cf0ff8f3d0": "What are the advantages of using simple comprehensions over other techniques for creating dicts, lists, or sets?",
+        "e0f765ab-0366-4875-a7c9-ea20537ce1d5": "What is `pylint` and what type of issues does it help identify in Python source code?",
+        "98cc37d2-be85-4373-863e-e202ef65eb62": "Why is it important to include comments in tricky parts of the code according to the given coding style?",
+        "69387e88-0c9c-4f52-a199-4620e3d53872": "What is the purpose of using getter and setter functions according to the given context?",
+        "d8f7e54e-fcff-467e-b414-f602a1bc327e": "Which Python values are considered false when evaluated in a boolean context? (Multiple Choice)",
+        "9280e286-5a1a-4a86-bf32-5a2fdcc215e8": "What is the instruction given for importing modules in the context information?",
+        "43108dc3-7dff-4bb6-b19c-0007e7769589": "Question:",
+        "d16c0ab0-7369-4c1b-b033-76fd33f80c18": "What is the rule for using semicolons in Python according to Google's style guide?",
+        "374b9245-e040-4c1e-85df-1b9ca75a3457": "What is the rule regarding the use of multiple `for` clauses and filter expressions in list comprehensions according to the given context?",
+        "07c17202-8099-451e-af2f-b96a392bf3e1": "What is the recommended way to use ternary operators according to the given context?",
+        "2d9b57ed-3d66-4e34-9c38-111ddb4496ef": "What happens when decorators perform arbitrary operations on a function's arguments or return values? Give an example of such surprising implicit behavior.",
+        "8a0902ad-45e2-474f-a8c4-e79189fb4bdf": "Why are there specific guidelines for the use of blank lines in Python code according to the given context information?",
+        "a16cb7e2-2d6c-488b-84d2-5c32391851bf": "Question: Based on PEP-008 guidelines, which of the following function definitions correctly apply spacing around the `=` sign for arguments with both a type annotation and default value?",
+        "ab35ef31-c3cc-4a06-b698-18dcb576034b": "What are the advantages of using property accessors over getter and setter methods in programming? Provide examples from the context information.",
+        "9e9942a4-9982-4f96-8534-3bcf72c473aa": "What are the data types mentioned in the context information that support default iterators and operators?",
+        "9cbbffab-279b-4cfd-b8c6-5af86292167c": "What is the recommended way to specify type parameters for generic types in Python according to the given context information?",
+        "36fef46b-95e0-41d2-9944-d84d0603bb61": "Why does the author caution against using \"cool\" features that are not necessary in coding?",
+        "f42fc1ec-711d-48de-a52e-8f935d1aaa03": "What is the purpose of using the decorator `2.17.2 Pros` in a method call?",
+        "c347dc79-7626-49e5-b1a2-f1a1ec459c9a": "What decision was made in the given context?",
+        "d500e48f-935a-4674-b663-ea22330d487b": "Based on Guido's Recommendations, what naming convention should be used for public packages?",
+        "3cf5bfd9-47c9-45da-8e63-ccec4728d660": "What is the topic of section 2.16 in the given document?",
+        "298167a6-79ca-4c3a-9330-024a3c82bc62": "What role do type annotations play in improving the readability and maintainability of code?",
+        "6e9f2bc3-80b5-4381-a896-88ea30124024": "What are decorators and when should they be used according to the given guidelines?",
+        "8c5e944e-f4ce-4f49-8672-8eb4ac95694f": "Question: if a function uses default arguments that are mutable objects like lists or dictionaries, what issue may arise when the function modifies the object during its execution? Provide an example and explain how this can lead to unexpected results in the context of default arguments.",
+        "cfb786aa-187c-4280-ad9b-ebf720940c6e": "What naming conventions should be followed for function names, variable names, and filenames according to the given context?",
+        "98bd33b3-27b6-4c71-9b54-8193e8d8d2c6": "Question: Based on the context, which keyword should be used instead of `len(seq)` when testing if a sequence (string, list, tuple) is empty?",
+        "bfc8941a-7307-4547-8864-fe6e0e1b52e5": "What is the advantage and disadvantage of not being able to determine the type of objects by reading method names in Python? (Open-ended)",
+        "3892c449-c900-4d23-a6e1-697db82d80da": "What is the term used to describe the mechanism that allows code to be shared from one module to another for reuse?",
+        "bd1536db-d42d-4130-ba58-7d3725d9c4df": "Question: Why is it recommended to use \"Yields:\" instead of \"Returns:\" in the docstring for generator functions, according to the given context?",
+        "2118509a-9d87-49ff-aade-ba32f6c26c50": "Question: Why do local variables in a generator not get garbage collected until the generator is exhausted or itself gets garbage collected?",
+        "49adce6d-0bdf-4cde-84b4-47222ff500f7": "What are the benefits of using a modular approach to runtime version upgrades as described in the context information?",
+        "a5a5f1d2-03b2-4dae-9e23-e8cae70b2cb1": "What potential drawback can cause confusion in control flow when using a library, according to the context information?",
+        "84014fce-0066-4630-a989-063ead8044ab": "What is the purpose of using `Self` annotation in Python classes according to PEP-484?",
+        "fc498947-65f8-45ba-b6b1-3fe6f79d446f": "Question 1: Which of the following statements are valid according to the given context rules for writing Python code on a single line?",
+        "ea07e3fa-ea65-489f-a865-42f27077deea": "What is the purpose of the shebang line (#!/) at the beginning of a Python file?",
+        "683601d0-8bb5-4dde-a8bf-ad71b619cca3": "What is the recommended function length according to the given coding standard?",
+        "b89814f0-d90b-47c5-a0b6-da36506b4208": "In what scenario would you find it useful to define default argument values for a function, instead of always passing arguments each time?",
+        "b8f42fa1-36f5-4236-bb27-9c4a257d137f": "What is the purpose of running `pylint` over code using a specific pylintrc file?",
+        "36cd27ee-1cb9-44cb-904d-74659cfbc786": "What advantage does the term \"convenient\" have in relation to the given context?",
+        "25636573-82b6-4dae-bc4f-acc9d45f00cb": "What is another name for conditional expressions in programming?",
+        "7bacc599-a316-4f66-9def-1a0ca2b42499": "Why might C/C++ developers find the concept of version 2.14.3 look strange?",
+        "e49fb61f-0c20-4570-94c3-d9495503833b": "Is it required for a professor or teacher to use implicit false statements in their evaluations? (False with the given caveats)",
+        "e6353b66-ef34-4b8e-afab-8fa658c0aa38": "What is meant by the term \"nested Python function\" in the context of the provided text?",
+        "4df3e615-272b-4415-9f2a-d75f4ddb448f": "What specific features should students avoid when using the 2.19 Power Features?",
+        "1e296cd1-6a4a-4d02-93b1-c4191bd98644": "What is the role of docstrings in Python?",
+        "8a3bd9ff-9f59-41c4-b674-dcfa3983e929": "What are module-level values or class attributes called in programming when they can get modified during program execution?",
+        "174daaec-228d-44e0-a39f-216c1ec8e749": "What should be included in the docstring of a Python class according to the given guidelines?",
+        "b4fc9160-ed22-4290-9cd1-d25d7e5501dd": "What is the topic of the current section in the document regarding?",
+        "68a26d79-22c7-47ad-bc24-91dbc0b4cce3": "What is the main difference between typed lists and typed tuples in Python? Provide examples of each.",
+        "56fc1eb8-1db0-49b7-8013-9fc3b3bfda22": "What type of documentation is required for functions with certain properties according to the given context?",
+        "818f50b8-4bc9-4ffd-8968-dfd7fca00fac": "Why do you need to keep type declarations up to date according to the given context?",
+        "0754ff63-673f-43b9-8c22-f66593f2c114": "What is the difference between \"internal\" variables or functions and those with a single underscore prefix (_) in Python, according to the given naming conventions?"
+    },
+    "corpus": {
+        "00e2890f-a7da-421d-8ff1-5be519cca356": "2.4 Exceptions\n\nExceptions are allowed but must be used carefully.",
+        "01c57db7-bed5-4a78-9a30-68d95e5af08d": "*Raises:*\n:   List all exceptions that are relevant to the interface followed by a\n    description. Use a similar exception name + colon + space or newline and\n    hanging indent style as described in *Args:*. You should not document\n    exceptions that get raised if the API specified in the docstring is violated\n    (because this would paradoxically make behavior under violation of the API\n    part of the API).\n\n```python\ndef fetch_smalltable_rows(\n    table_handle: smalltable.Table,\n    keys: Sequence[bytes | str],\n    require_all_keys: bool = False,\n) -> Mapping[bytes, tuple[str, ...]]:\n    \"\"\"Fetches rows from a Smalltable.\n\n    Retrieves rows pertaining to the given keys from the Table instance\n    represented by table_handle.  String keys will be UTF-8 encoded.\n\n    Args:\n        table_handle: An open smalltable.Table instance.\n        keys: A sequence of strings representing the key of each table\n          row to fetch.  String keys will be UTF-8 encoded.\n        require_all_keys: If True only rows with values set for all keys will be\n          returned.\n\n    Returns:\n        A dict mapping keys to the corresponding table row data\n        fetched. Each row is represented as a tuple of strings. For\n        example:\n\n        {b'Serak': ('Rigel VII', 'Preparer'),\n         b'Zim': ('Irk', 'Invader'),\n         b'Lrrr': ('Omicron Persei 8', 'Emperor')}\n\n        Returned keys are always bytes.  If a key from the keys argument is\n        missing from the dictionary, then that row was not found in the\n        table (and require_all_keys must have been False).\n\n    Raises:\n        IOError: An error occurred accessing the smalltable.\n    \"\"\"\n```\n\nSimilarly, this variation on `Args:` with a line break is also allowed:\n\n```python\ndef fetch_smalltable_rows(\n    table_handle: smalltable.Table,\n    keys: Sequence[bytes | str],\n    require_all_keys: bool = False,\n) -> Mapping[bytes, tuple[str, ...]]:\n    \"\"\"Fetches rows from a Smalltable.\n\n    Retrieves rows pertaining to the given keys from the Table instance\n    represented by table_handle.  String keys will be UTF-8 encoded.\n\n    Args:\n      table_handle:\n        An open smalltable.Table instance.\n      keys:\n        A sequence of strings representing the key of each table row to\n        fetch.  String keys will be UTF-8 encoded.\n      require_all_keys:\n        If True only rows with values set for all keys will be returned.\n\n    Returns:\n      A dict mapping keys to the corresponding table row data\n      fetched. Each row is represented as a tuple of strings. For\n      example:\n\n      {b'Serak': ('Rigel VII', 'Preparer'),\n       b'Zim': ('Irk', 'Invader'),\n       b'Lrrr': ('Omicron Persei 8', 'Emperor')}\n\n      Returned keys are always bytes.  If a key from the keys argument is\n      missing from the dictionary, then that row was not found in the\n      table (and require_all_keys must have been False).\n\n    Raises:\n      IOError: An error occurred accessing the smalltable.\n    \"\"\"\n```",
+        "01f33f46-3575-43eb-b918-40ef03bff2c6": "2.1.3 Cons\n\n`pylint`\nisn't perfect. To take advantage of it, sometimes we'll need to write around it,\nsuppress its warnings or fix it.",
+        "05619da7-0da4-4e85-9b63-ed6dceb5213e": "3.6 Whitespace\n\nFollow standard typographic rules for the use of spaces around punctuation.\n\nNo whitespace inside parentheses, brackets or braces.\n\n```python\nYes: spam(ham[1], {'eggs': 2}, [])\n```\n\n```python\nNo:  spam( ham[ 1 ], { 'eggs': 2 }, [ ] )\n```\n\nNo whitespace before a comma, semicolon, or colon. Do use whitespace after a\ncomma, semicolon, or colon, except at the end of the line.\n\n```python\nYes: if x == 4:\n         print(x, y)\n     x, y = y, x\n```\n\n```python\nNo:  if x == 4 :\n         print(x , y)\n     x , y = y , x\n```\n\nNo whitespace before the open paren/bracket that starts an argument list,\nindexing or slicing.\n\n```python\nYes: spam(1)\n```\n\n```python\nNo:  spam (1)\n```\n\n```python\nYes: dict['key'] = list[index]\n```\n\n```python\nNo:  dict ['key'] = list [index]\n```\n\nNo trailing whitespace.\n\nSurround binary operators with a single space on either side for assignment\n(`=`), comparisons (`==, , !=, , =, in, not in, is, is not`), and\nBooleans (`and, or, not`). Use your better judgment for the insertion of spaces\naround arithmetic operators (`+`, `-`, `*`, `/`, `//`, `%`, `**`, `@`).\n\n```python\nYes: x == 1\n```\n\n```python\nNo:  x<1\n```\n\nNever use spaces around `=` when passing keyword arguments or defining a default\nparameter value, with one exception:\nwhen a type annotation is present, *do* use spaces\naround the `=` for the default parameter value.\n\n```python\nYes: def complex(real, imag=0.0): return Magic(r=real, i=imag)\nYes: def complex(real, imag: float = 0.0): return Magic(r=real, i=imag)\n```\n\n```python\nNo:  def complex(real, imag = 0.0): return Magic(r = real, i = imag)\nNo:  def complex(real, imag: float=0.0): return Magic(r = real, i = imag)\n```\n\nDon't use spaces to vertically align tokens on consecutive lines, since it\nbecomes a maintenance burden (applies to `:`, `#`, `=`, etc.):\n\n```python\nYes:\n  foo = 1000  # comment\n  long_name = 2  # comment that should not be aligned\n\n  dictionary = {\n      'foo': 1,\n      'long_name': 2,\n  }\n```\n\n```python\nNo:\n  foo       = 1000  # comment\n  long_name = 2     # comment that should not be aligned\n\n  dictionary = {\n      'foo'      : 1,\n      'long_name': 2,\n  }\n```",
+        "0c196617-b35a-413d-86a7-2881c7f6f18d": "2.21 Type Annotated Code\n\nYou can annotate Python code with type hints according to\nPEP-484, and type-check the code at build\ntime with a type checking tool like pytype.\n\nType annotations can be in the source or in a\nstub pyi file. Whenever\npossible, annotations should be in the source. Use pyi files for third-party or\nextension modules.",
+        "0c9f725d-f26b-413b-a266-d632e50f7dd9": "2.12 Default Argument Values\n\nOkay in most cases.",
+        "0f1a0c41-fca9-4ba8-a991-7e86ccf5163a": "2.9.1 Definition\n\nA generator function returns an iterator that yields a value each time it\nexecutes a yield statement. After it yields a value, the runtime state of the\ngenerator function is suspended until the next value is needed.",
+        "0f8ab1ce-d2d5-41f4-93d4-a1d0f7d48cf7": "2.18 Threading\n\nDo not rely on the atomicity of built-in types.\n\nWhile Python's built-in data types such as dictionaries appear to have atomic\noperations, there are corner cases where they aren't atomic (e.g. if `__hash__`\nor `__eq__` are implemented as Python methods) and their atomicity should not be\nrelied upon. Neither should you rely on atomic variable assignment (since this\nin turn depends on dictionaries).\n\nUse the `queue` module's `Queue` data type as the preferred way to communicate\ndata between threads. Otherwise, use the `threading` module and its locking\nprimitives. Prefer condition variables and `threading.Condition` instead of\nusing lower-level locks.",
+        "1033b874-eed6-49eb-a701-b7dcbccc7c9a": "2.10.4 Decision\n\nLambdas are allowed. If the code inside the lambda function spans multiple lines\nor is longer than 60-80 chars, it might be better to define it as a regular\nnested function.\n\nFor common operations like multiplication, use the functions from the `operator`\nmodule instead of lambda functions. For example, prefer `operator.mul` to\n`lambda x, y: x * y`.",
+        "141c40a6-4924-43fe-9749-19f7c2abd00e": "2.2.2 Pros\n\nThe namespace management convention is simple. The source of each identifier is\nindicated in a consistent way; `x.Obj` says that object `Obj` is defined in\nmodule `x`.",
+        "15062841-d236-47e2-b51f-81cb527100c7": "<!--\nAUTHORS:\nPrefer only GitHub-flavored Markdown in external text.\nSee README.md for details.\n-->",
+        "16666acf-dc94-4823-af60-168436b995a3": "3.8 Comments and Docstrings\n\nBe sure to use the right style for module, function, method docstrings and\ninline comments.",
+        "173c1767-9d21-4150-bf4c-7661bebb0366": "2.1.2 Pros\n\nCatches easy-to-miss errors like typos, using-vars-before-assignment, etc.",
+        "1872e286-357e-4427-9526-d83aea147f5e": "2.3.1 Pros\n\nAvoids conflicts in module names or incorrect imports due to the module search\npath not being what the author expected. Makes it easier to find modules.",
+        "18974100-c35b-4f2e-b873-2e5b87e6eacb": "3.13 Imports formatting\n\nImports should be on separate lines; there are\nexceptions for `typing` and `collections.abc` imports.\n\nE.g.:\n\n```python\nYes: from collections.abc import Mapping, Sequence\n     import os\n     import sys\n     from typing import Any, NewType\n```\n\n```python\nNo:  import os, sys\n```\n\n\nImports are always put at the top of the file, just after any module comments\nand docstrings and before module globals and constants. Imports should be\ngrouped from most generic to least generic:\n\n1.  Python future import statements. For example:\n\n    ```python\n    from __future__ import annotations\n    ```\n\n    See above for more information about those.\n\n2.  Python standard library imports. For example:\n\n    ```python\n    import sys\n    ```\n\n3.  third-party module\n    or package imports. For example:\n\n    \n    ```python\n    import tensorflow as tf\n    ```\n\n4.  Code repository\n    sub-package imports. For example:\n\n    \n    ```python\n    from otherproject.ai import mind\n    ```\n\n5.  **Deprecated:** application-specific imports that are part of the same\n    top-level\n    sub-package as this file. For example:\n\n    \n    ```python\n    from myproject.backend.hgwells import time_machine\n    ```\n\n    You may find older Google Python Style code doing this, but it is no longer\n    required. **New code is encouraged not to bother with this.** Simply treat\n    application-specific sub-package imports the same as other sub-package\n    imports.\n\n    \nWithin each grouping, imports should be sorted lexicographically, ignoring case,\naccording to each module's full package path (the `path` in `from path import\n...`). Code may optionally place a blank line between import sections.\n\n```python\nimport collections\nimport queue\nimport sys\n\nfrom absl import app\nfrom absl import flags\nimport bs4\nimport cryptography\nimport tensorflow as tf\n\nfrom book.genres import scifi\nfrom myproject.backend import huxley\nfrom myproject.backend.hgwells import time_machine\nfrom myproject.backend.state_machine import main_loop\nfrom otherproject.ai import body\nfrom otherproject.ai import mind\nfrom otherproject.ai import soul\n\n# Older style code may have these imports down here instead:\n#from myproject.backend.hgwells import time_machine\n#from myproject.backend.state_machine import main_loop\n```",
+        "1c52fff2-de1a-436c-a09f-be99246e41cb": "2.4.2 Pros\n\nThe control flow of normal operation code is not cluttered by error-handling\ncode. It also allows the control flow to skip multiple frames when a certain\ncondition occurs, e.g., returning from N nested functions in one step instead of\nhaving to plumb error codes through.",
+        "1d5081e7-5a2f-4d90-a2cb-2d28d56584b9": "2.1.4 Decision\n\nMake sure you run\n`pylint`\non your code.\n\n\nSuppress warnings if they are inappropriate so that other issues are not hidden.\nTo suppress warnings, you can set a line-level comment:\n\n```python\ndef do_PUT(self):  # WSGI name, so pylint: disable=invalid-name\n  ...\n```\n\n`pylint`\nwarnings are each identified by symbolic name (`empty-docstring`)\nGoogle-specific warnings start with `g-`.\n\nIf the reason for the suppression is not clear from the symbolic name, add an\nexplanation.\n\nSuppressing in this way has the advantage that we can easily search for\nsuppressions and revisit them.\n\nYou can get a list of\n`pylint`\nwarnings by doing:\n\n```shell\npylint --list-msgs\n```\n\nTo get more information on a particular message, use:\n\n```shell\npylint --help-msg=invalid-name\n```\n\nPrefer `pylint: disable` to the deprecated older form `pylint: disable-msg`.\n\nUnused argument warnings can be suppressed by deleting the variables at the\nbeginning of the function. Always include a comment explaining why you are\ndeleting it. \"Unused.\" is sufficient. For example:\n\n```python\ndef viking_cafe_order(spam: str, beans: str, eggs: str | None = None) -> str:\n    del beans, eggs  # Unused by vikings.\n    return spam + spam + spam\n```\n\nOther common forms of suppressing this warning include using '`_`' as the\nidentifier for the unused argument or prefixing the argument name with\n'`unused_`', or assigning them to '`_`'. These forms are allowed but no longer\nencouraged. These break callers that pass arguments by name and do not enforce\nthat the arguments are actually unused.",
+        "200c745b-b65d-407d-b37f-75c6cb3f562a": "2.17 Function and Method Decorators\n\nUse decorators judiciously when there is a clear advantage. Avoid `staticmethod`\nand limit use of `classmethod`.",
+        "2813f0d2-e603-4b67-b150-06e646297f59": "2.4.1 Definition\n\nExceptions are a means of breaking out of normal control flow to handle errors\nor other exceptional conditions.",
+        "2878723c-2bef-469f-afdc-9f9cf5990513": "2.21.1 Definition\n\nType annotations (or \"type hints\") are for function or method arguments and\nreturn values:\n\n```python\ndef func(a: int) -> list[int]:\n```\n\nYou can also declare the type of a variable using similar\nPEP-526 syntax:\n\n```python\na: SomeType = some_func()\n```",
+        "2930a056-eb80-44a6-b1c6-654436095ae0": "2.3.3 Decision\n\nAll new code should import each module by its full package name.\n\nImports should be as follows:\n\n```python\nYes:\n  # Reference absl.flags in code with the complete name (verbose).\n  import absl.flags\n  from doctor.who import jodie\n\n  _FOO = absl.flags.DEFINE_string(...)\n```\n\n```python\nYes:\n  # Reference flags in code with just the module name (common).\n  from absl import flags\n  from doctor.who import jodie\n\n  _FOO = flags.DEFINE_string(...)\n```\n\n*(assume this file lives in `doctor/who/` where `jodie.py` also exists)*\n\n```python\nNo:\n  # Unclear what module the author wanted and what will be imported.  The actual\n  # import behavior depends on external factors controlling sys.path.\n  # Which possible jodie module did the author intend to import?\n  import jodie\n```\n\nThe directory the main binary is located in should not be assumed to be in\n`sys.path` despite that happening in some environments. This being the case,\ncode should assume that `import jodie` refers to a third-party or top-level\npackage named `jodie`, not a local `jodie.py`.",
+        "2a38cfd9-804d-47f2-8274-0b411a93e866": "2.5.2 Pros\n\nOccasionally useful.",
+        "2bef6293-72ed-41b7-8c42-e490a41c63a9": "2.9.2 Pros\n\nSimpler code, because the state of local variables and control flow are\npreserved for each call. A generator uses less memory than a function that\ncreates an entire list of values at once.",
+        "2ee6d9a5-ce22-434b-9e0b-d8cb51a61c2b": "3.19 Type Annotations",
+        "314250e7-c4e8-43f2-a56c-522e623e435f": "3.19.6 Type Aliases\n\nYou can declare aliases of complex types. The name of an alias should be\nCapWorded. If the alias is used only in this module, it should be \\_Private.\n\nNote that the `: TypeAlias` annotation is only supported in versions 3.10+.\n\n```python\nfrom typing import TypeAlias\n\n_LossAndGradient: TypeAlias = tuple[tf.Tensor, tf.Tensor]\nComplexTFMap: TypeAlias = Mapping[str, _LossAndGradient]\n```",
+        "33454540-7356-4bad-83bc-d577c1017c0e": "3.16.5 Mathematical Notation\n\nFor mathematically heavy code, short variable names that would otherwise violate\nthe style guide are preferred when they match established notation in a\nreference paper or algorithm. When doing so, reference the source of all naming\nconventions in a comment or docstring or, if the source is not accessible,\nclearly document the naming conventions. Prefer PEP8-compliant\n`descriptive_names` for public APIs, which are much more likely to be\nencountered out of context.",
+        "3705557d-4cce-436d-b5fc-5fdd729cc02d": "2.11 Conditional Expressions\n\nOkay for simple cases.",
+        "3bc71b5a-0e3e-446b-8a44-b423bca4780c": "3.10.1 Logging\n\nFor logging functions that expect a pattern-string (with %-placeholders) as\ntheir first argument: Always call them with a string literal (not an f-string!)\nas their first argument with pattern-parameters as subsequent arguments. Some\nlogging implementations collect the unexpanded pattern-string as a queryable\nfield. It also prevents spending time rendering a message that no logger is\nconfigured to output.\n\n```python\n  Yes:\n  import tensorflow as tf\n  logger = tf.get_logger()\n  logger.info('TensorFlow Version is: %s', tf.__version__)\n```\n\n```python\n  Yes:\n  import os\n  from absl import logging\n\n  logging.info('Current $PAGER is: %s', os.getenv('PAGER', default=''))\n\n  homedir = os.getenv('HOME')\n  if homedir is None or not os.access(homedir, os.W_OK):\n    logging.error('Cannot write to home directory, $HOME=%r', homedir)\n```\n\n```python\n  No:\n  import os\n  from absl import logging\n\n  logging.info('Current $PAGER is:')\n  logging.info(os.getenv('PAGER', default=''))\n\n  homedir = os.getenv('HOME')\n  if homedir is None or not os.access(homedir, os.W_OK):\n    logging.error(f'Cannot write to home directory, $HOME={homedir!r}')\n```",
+        "3f07272f-dcfe-473d-bbc2-265370712e39": "3.19.3 Forward Declarations\n\nIf you need to use a class name (from the same module) that is not yet\ndefined -- for example, if you need the class name inside the declaration of\nthat class, or if you use a class that is defined later in the code -- either\nuse `from __future__ import annotations` or use a string for the class name.\n\n```python\nYes:\nfrom __future__ import annotations\n\nclass MyClass:\n  def __init__(self, stack: Sequence[MyClass], item: OtherClass) -> None:\n\nclass OtherClass:\n  ...\n```\n\n```python\nYes:\nclass MyClass:\n  def __init__(self, stack: Sequence['MyClass'], item: 'OtherClass') -> None:\n\nclass OtherClass:\n  ...\n```",
+        "3fa213ce-ec86-4206-b3d4-c130efddb02a": "2.2 Imports\n\nUse `import` statements for packages and modules only, not for individual types,\nclasses, or functions.",
+        "41875176-bf9b-46c9-a3eb-1bf9342a8043": "3.16.3 File Naming\n\nPython filenames must have a `.py` extension and must not contain dashes (`-`).\nThis allows them to be imported and unittested. If you want an executable to be\naccessible without the extension, use a symbolic link or a simple bash wrapper\ncontaining `exec \"$0.py\" \"$@\"`.",
+        "42145351-29c6-416d-8a0c-1fb90cd0c13c": "3.11 Files, Sockets, and similar Stateful Resources\n\nExplicitly close files and sockets when done with them. This rule naturally\nextends to closeable resources that internally use sockets, such as database\nconnections, and also other resources that need to be closed down in a similar\nfashion. To name only a few examples, this also includes\nmmap mappings,\nh5py File objects, and\nmatplotlib.pyplot figure windows.\n\nLeaving files, sockets or other such stateful objects open unnecessarily has\nmany downsides:\n\n-   They may consume limited system resources, such as file descriptors. Code\n    that deals with many such objects may exhaust those resources unnecessarily\n    if they're not returned to the system promptly after use.\n-   Holding files open may prevent other actions such as moving or deleting\n    them, or unmounting a filesystem.\n-   Files and sockets that are shared throughout a program may inadvertently be\n    read from or written to after logically being closed. If they are actually\n    closed, attempts to read or write from them will raise exceptions, making\n    the problem known sooner.\n\nFurthermore, while files and sockets (and some similarly behaving resources) are\nautomatically closed when the object is destructed, coupling the lifetime of the\nobject to the state of the resource is poor practice:\n\n-   There are no guarantees as to when the runtime will actually invoke the\n    `__del__` method. Different Python implementations use different memory\n    management techniques, such as delayed garbage collection, which may\n    increase the object's lifetime arbitrarily and indefinitely.\n-   Unexpected references to the file, e.g. in globals or exception tracebacks,\n    may keep it around longer than intended.\n\nRelying on finalizers to do automatic cleanup that has observable side effects\nhas been rediscovered over and over again to lead to major problems, across many\ndecades and multiple languages (see e.g.\nthis article\nfor Java).\n\nThe preferred way to manage files and similar resources is using the\n`with` statement:\n\n```python\nwith open(\"hello.txt\") as hello_file:\n    for line in hello_file:\n        print(line)\n```\n\nFor file-like objects that do not support the `with` statement, use\n`contextlib.closing()`:\n\n```python\nimport contextlib\n\nwith contextlib.closing(urllib.urlopen(\"http://www.python.org/\")) as front_page:\n    for line in front_page:\n        print(line)\n```\n\nIn rare cases where context-based resource management is infeasible, code\ndocumentation must explain clearly how resource lifetime is managed.",
+        "45e6ce38-d3d2-49c4-8c0a-285e8e39f895": "2.3.2 Cons\n\nMakes it harder to deploy code because you have to replicate the package\nhierarchy. Not really a problem with modern deployment mechanisms.",
+        "4747fce8-4007-4f81-8c61-c7f4b815010a": "3.1 Semicolons\n\nDo not terminate your lines with semicolons, and do not use semicolons to put\ntwo statements on the same line.",
+        "48079570-ece5-4052-a273-b1113eec5e3e": "3.8.2.1 Test modules\n\nModule-level docstrings for test files are not required. They should be included\nonly when there is additional information that can be provided.\n\nExamples include some specifics on how the test should be run, an explanation of\nan unusual setup pattern, dependency on the external environment, and so on.\n\n```python\n\"\"\"This blaze test uses golden files.\n\nYou can update those files by running\n`blaze run //foo/bar:foo_test -- --update_golden_files` from the `google3`\ndirectory.\n\"\"\"\n```\n\nDocstrings that do not provide any new information should not be used.\n\n```python\n\"\"\"Tests for foo.bar.\"\"\"\n```",
+        "48edb676-741c-4637-a5fd-b9ca409c4a21": "3.19.14 Circular Dependencies\n\nCircular dependencies that are caused by typing are code smells. Such code is a\ngood candidate for refactoring. Although technically it is possible to keep\ncircular dependencies, various build systems will not let you do so\nbecause each module has to depend on the other.\n\nReplace modules that create circular dependency imports with `Any`. Set an\nalias with a meaningful name, and use the real type name from\nthis module (any attribute of `Any` is `Any`). Alias definitions should be\nseparated from the last import by one line.\n\n```python\nfrom typing import Any\n\nsome_mod = Any  # some_mod.py imports this module.\n...\n\ndef my_method(self, var: \"some_mod.SomeType\") -> None:\n  ...\n```",
+        "491fff31-7296-426e-a19b-84c157a96cf1": "3.19.5 NoneType\n\nIn the Python type system, `NoneType` is a \"first class\" type, and for typing\npurposes, `None` is an alias for `NoneType`. If an argument can be `None`, it\nhas to be declared! You can use `|` union type expressions (recommended in new\nPython 3.10+ code), or the older `Optional` and `Union` syntaxes.\n\nUse explicit `X | None` instead of implicit. Earlier versions of PEP 484 allowed\n`a: str = None` to be interpreted as `a: str | None = None`, but that is no\nlonger the preferred behavior.\n\n```python\nYes:\ndef modern_or_union(a: str | int | None, b: str | None = None) -> str:\n  ...\ndef union_optional(a: Union[str, int, None], b: Optional[str] = None) -> str:\n  ...\n```\n\n```python\nNo:\ndef nullable_union(a: Union[None, str]) -> str:\n  ...\ndef implicit_optional(a: str = None) -> str:\n  ...\n```",
+        "4aeea665-7074-4b21-a8d1-15e30434e2e5": "2.11.3 Cons\n\nMay be harder to read than an if statement. The condition may be difficult to\nlocate if the expression is long.",
+        "4b05b124-2924-4628-acb3-95902100d0df": "2.6.4 Decision\n\nThey are fine with some caveats. Avoid nested functions or classes except when\nclosing over a local value other than `self` or `cls`. Do not nest a function\njust to hide it from users of a module. Instead, prefix its name with an \\_ at\nthe module level so that it can still be accessed by tests.",
+        "4b862533-7d64-4f87-86d6-dec752e726aa": "2.20.3 Cons\n\nSuch code may not work on very old interpreter versions prior to the\nintroduction of the needed future statement. The need for this is more common in\nprojects supporting an extremely wide variety of environments.",
+        "4cd4f588-a9d8-4195-923d-e8f60d179a66": "2.8.2 Pros\n\nThe default iterators and operators are simple and efficient. They express the\noperation directly, without extra method calls. A function that uses default\noperators is generic. It can be used with any type that supports the operation.",
+        "51dc9496-6548-4415-90f1-87c6f5462926": "2.19.2 Pros\n\nThese are powerful language features. They can make your code more compact.",
+        "52f11a29-4134-40bf-880e-810aea8cc09a": "2.4.4 Decision\n\nExceptions must follow certain conditions:\n\n-   Make use of built-in exception classes when it makes sense. For example,\n    raise a `ValueError` to indicate a programming mistake like a violated\n    precondition, such as may happen when validating function arguments.\n\n-   Do not use `assert` statements in place of conditionals or validating\n    preconditions. They must not be critical to the application logic. A litmus\n    test would be that the `assert` could be removed without breaking the code.\n    `assert` conditionals are\n    not guaranteed\n    to be evaluated. For pytest based tests, `assert` is\n    okay and expected to verify expectations. For\n    example:\n\n    \n    ```python\n    Yes:\n      def connect_to_next_port(self, minimum: int) -> int:\n        \"\"\"Connects to the next available port.\n\n        Args:\n          minimum: A port value greater or equal to 1024.\n\n        Returns:\n          The new minimum port.\n\n        Raises:\n          ConnectionError: If no available port is found.\n        \"\"\"\n        if minimum < 1024:\n          # Note that this raising of ValueError is not mentioned in the doc\n          # string's \"Raises:\" section because it is not appropriate to\n          # guarantee this specific behavioral reaction to API misuse.\n          raise ValueError(f'Min. port must be at least 1024, not {minimum}.')\n        port = self._find_next_open_port(minimum)\n        if port is None:\n          raise ConnectionError(\n              f'Could not connect to service on port {minimum} or higher.')\n        # The code does not depend on the result of this assert.\n        assert port >= minimum, (\n            f'Unexpected port {port} when minimum was {minimum}.')\n        return port\n    ```\n\n    ```python\n    No:\n      def connect_to_next_port(self, minimum: int) -> int:\n        \"\"\"Connects to the next available port.\n\n        Args:\n          minimum: A port value greater or equal to 1024.\n\n        Returns:\n          The new minimum port.\n        \"\"\"\n        assert minimum >= 1024, 'Minimum port must be at least 1024.'\n        # The following code depends on the previous assert.\n        port = self._find_next_open_port(minimum)\n        assert port is not None\n        # The type checking of the return statement relies on the assert.\n        return port\n    ```\n\n\n-   Libraries or packages may define their own exceptions. When doing so they\n    must inherit from an existing exception class. Exception names should end in\n    `Error` and should not introduce repetition (`foo.FooError`).\n\n-   Never use catch-all `except:` statements, or catch `Exception` or\n    `StandardError`, unless you are\n\n    -   re-raising the exception, or\n    -   creating an isolation point in the program where exceptions are not\n        propagated but are recorded and suppressed instead, such as protecting a\n        thread from crashing by guarding its outermost block.\n\n    Python is very tolerant in this regard and `except:` will really catch\n    everything including misspelled names, sys.exit() calls, Ctrl+C interrupts,\n    unittest failures and all kinds of other exceptions that you simply don't\n    want to catch.\n\n-   Minimize the amount of code in a `try`/`except` block. The larger the body\n    of the `try`, the more likely that an exception will be raised by a line of\n    code that you didn't expect to raise an exception. In those cases, the\n    `try`/`except` block hides a real error.\n\n-   Use the `finally` clause to execute code whether or not an exception is\n    raised in the `try` block. This is often useful for cleanup, i.e., closing a\n    file.",
+        "54bdb356-5216-4d31-9e2f-7f4502b956cc": "2.19.4 Decision\n\nAvoid these features in your code.\n\nStandard library modules and classes that internally use these features are okay\nto use (for example, `abc.ABCMeta`, `dataclasses`, and `enum`).",
+        "560987da-1fa6-41e9-b7ff-11657415189b": "2.14.2 Pros\n\nConditions using Python booleans are easier to read and less error-prone. In\nmost cases, they're also faster.",
+        "5705c6b8-b9ec-4ef1-835f-286c91a39457": "3.3 Parentheses\n\nUse parentheses sparingly.\n\nIt is fine, though not required, to use parentheses around tuples. Do not use\nthem in return statements or conditional statements unless using parentheses for\nimplied line continuation or to indicate a tuple.\n\n```python\nYes: if foo:\n         bar()\n     while x:\n         x = bar()\n     if x and y:\n         bar()\n     if not x:\n         bar()\n     # For a 1 item tuple the ()s are more visually obvious than the comma.\n     onesie = (foo,)\n     return foo\n     return spam, beans\n     return (spam, beans)\n     for (x, y) in dict.items(): ...\n```\n\n```python\nNo:  if (x):\n         bar()\n     if not(x):\n         bar()\n     return (foo)\n```",
+        "59ac56ca-e8c9-4a12-bc9a-c0f7819b93ef": "3.10.2 Error Messages\n\nError messages (such as: message strings on exceptions like `ValueError`, or\nmessages shown to the user) should follow three guidelines:\n\n1.  The message needs to precisely match the actual error condition.\n\n2.  Interpolated pieces need to always be clearly identifiable as such.\n\n3.  They should allow simple automated processing (e.g. grepping).\n\n```python\n  Yes:\n  if not 0 <= p <= 1:\n    raise ValueError(f'Not a probability: {p=}')\n\n  try:\n    os.rmdir(workdir)\n  except OSError as error:\n    logging.warning('Could not remove directory (reason: %r): %r',\n                    error, workdir)\n```\n\n```python\n  No:\n  if p  1:  # PROBLEM: also false for float('nan')!\n    raise ValueError(f'Not a probability: {p=}')\n\n  try:\n    os.rmdir(workdir)\n  except OSError:\n    # PROBLEM: Message makes an assumption that might not be true:\n    # Deletion might have failed for some other reason, misleading\n    # whoever has to debug this.\n    logging.warning('Directory already was deleted: %s', workdir)\n\n  try:\n    os.rmdir(workdir)\n  except OSError:\n    # PROBLEM: The message is harder to grep for than necessary, and\n    # not universally non-confusing for all possible values of `workdir`.\n    # Imagine someone calling a library function with such code\n    # using a name such as workdir = 'deleted'. The warning would read:\n    # \"The deleted directory could not be deleted.\"\n    logging.warning('The %s directory could not be deleted.', workdir)\n```",
+        "5a05354a-434c-4524-a68d-40c736303763": "2.2.4.1 Exemptions\n\nExemptions from this rule:\n\n*   Symbols from the following modules are used to support static analysis and\n    type checking:\n    *   `typing` module\n    *   `collections.abc` module\n    *   `typing_extensions` module\n*   Redirects from the\n    six.moves module.",
+        "5b978811-156f-43cd-9871-fffb6d1069fd": "3.16.1 Names to Avoid\n\n-   single character names, except for specifically allowed cases:\n\n    -   counters or iterators (e.g. `i`, `j`, `k`, `v`, et al.)\n    -   `e` as an exception identifier in `try/except` statements.\n    -   `f` as a file handle in `with` statements\n    -   private type variables with no constraints (e.g.\n        `_T = TypeVar(\"_T\")`, `_P = ParamSpec(\"_P\")`)\n\n    Please be mindful not to abuse single-character naming. Generally speaking,\n    descriptiveness should be proportional to the name's scope of visibility.\n    For example, `i` might be a fine name for 5-line code block but within\n    multiple nested scopes, it is likely too vague.\n\n-   dashes (`-`) in any package/module name\n\n-   `__double_leading_and_trailing_underscore__` names (reserved by Python)\n\n-   offensive terms\n\n-   names that needlessly include the type of the variable (for example:\n    `id_to_name_dict`)",
+        "5eb86086-5187-43c4-9e9d-272c7f4d98a8": "3.4 Indentation\n\nIndent your code blocks with *4 spaces*.\n\nNever use tabs. Implied line continuation should align wrapped elements\nvertically (see line length examples), or use a hanging\n4-space indent. Closing (round, square or curly) brackets can be placed at the\nend of the expression, or on separate lines, but then should be indented the\nsame as the line with the corresponding opening bracket.\n\n```python\nYes:   # Aligned with opening delimiter.\n       foo = long_function_name(var_one, var_two,\n                                var_three, var_four)\n       meal = (spam,\n               beans)\n\n       # Aligned with opening delimiter in a dictionary.\n       foo = {\n           'long_dictionary_key': value1 +\n                                  value2,\n           ...\n       }\n\n       # 4-space hanging indent; nothing on first line.\n       foo = long_function_name(\n           var_one, var_two, var_three,\n           var_four)\n       meal = (\n           spam,\n           beans)\n\n       # 4-space hanging indent; nothing on first line,\n       # closing parenthesis on a new line.\n       foo = long_function_name(\n           var_one, var_two, var_three,\n           var_four\n       )\n       meal = (\n           spam,\n           beans,\n       )\n\n       # 4-space hanging indent in a dictionary.\n       foo = {\n           'long_dictionary_key':\n               long_dictionary_value,\n           ...\n       }\n```\n\n```python\nNo:    # Stuff on first line forbidden.\n       foo = long_function_name(var_one, var_two,\n           var_three, var_four)\n       meal = (spam,\n           beans)\n\n       # 2-space hanging indent forbidden.\n       foo = long_function_name(\n         var_one, var_two, var_three,\n         var_four)\n\n       # No hanging indent in a dictionary.\n       foo = {\n           'long_dictionary_key':\n           long_dictionary_value,\n           ...\n       }\n```",
+        "602bdeec-2420-40ec-b04e-426a32808745": "2.10.3 Cons\n\nHarder to read and debug than local functions. The lack of names means stack\ntraces are more difficult to understand. Expressiveness is limited because the\nfunction may only contain an expression.",
+        "61085d43-eaee-4690-a727-81cd3f7ff091": "2.16.2 Pros\n\nOften results in clearer, more elegant code. Especially comforting to\nexperienced Lisp and Scheme (and Haskell and ML and ...) programmers.",
+        "66b7c0a8-6152-483f-a391-0e703283a31b": "3.19.11 String types\n\n> Do not use `typing.Text` in new code. It's only for Python 2/3 compatibility.\n\nUse `str` for string/text data. For code that deals with binary data, use\n`bytes`.\n\n```python\ndef deals_with_text_data(x: str) -> str:\n  ...\ndef deals_with_binary_data(x: bytes) -> bytes:\n  ...\n```\n\nIf all the string types of a function are always the same, for example if the\nreturn type is the same as the argument type in the code above, use\nAnyStr.",
+        "6a3b2553-cbcf-4222-9e32-ff28daf159b0": "2.13.4 Decision\n\nProperties are allowed, but, like operator overloading, should only be used when\nnecessary and match the expectations of typical attribute access; follow the\ngetters and setters rules otherwise.\n\nFor example, using a property to simply both get and set an internal attribute\nisn't allowed: there is no computation occurring, so the property is unnecessary\n(make the attribute public instead). In comparison,\nusing a property to control attribute access or to calculate a *trivially*\nderived value is allowed: the logic is simple and unsurprising.\n\nProperties should be created with the `@property`\ndecorator. Manually implementing a\nproperty descriptor is considered a power feature.\n\nInheritance with properties can be non-obvious. Do not use properties to\nimplement computations a subclass may ever want to override and extend.",
+        "6a9f70e3-8bd0-46b1-bb08-83662ac2467d": "3.19.2 Line Breaking\n\nTry to follow the existing indentation rules.\n\nAfter annotating, many function signatures will become \"one parameter per line\".\nTo ensure the return type is also given its own line, a comma can be placed\nafter the last parameter.\n\n```python\ndef my_method(\n    self,\n    first_var: int,\n    second_var: Foo,\n    third_var: Bar | None,\n) -> int:\n  ...\n```\n\nAlways prefer breaking between variables, and not, for example, between variable\nnames and type annotations. However, if everything fits on the same line, go for\nit.\n\n```python\ndef my_method(self, first_var: int) -> int:\n  ...\n```\n\nIf the combination of the function name, the last parameter, and the return type\nis too long, indent by 4 in a new line. When using line breaks, prefer putting\neach parameter and the return type on their own lines and aligning the closing\nparenthesis with the `def`:\n\n```python\nYes:\ndef my_method(\n    self,\n    other_arg: MyLongType | None,\n) -> tuple[MyLongType1, MyLongType1]:\n  ...\n```\n\nOptionally, the return type may be put on the same line as the last parameter:\n\n```python\nOkay:\ndef my_method(\n    self,\n    first_var: int,\n    second_var: int) -> dict[OtherLongType, MyLongType]:\n  ...\n```\n\n`pylint`\nallows you to move the closing parenthesis to a new line and align with the\nopening one, but this is less readable.\n\n```python\nNo:\ndef my_method(self,\n              other_arg: MyLongType | None,\n             ) -> dict[OtherLongType, MyLongType]:\n  ...\n```\n\nAs in the examples above, prefer not to break types. However, sometimes they are\ntoo long to be on a single line (try to keep sub-types unbroken).\n\n```python\ndef my_method(\n    self,\n    first_var: tuple[list[MyLongType1],\n                     list[MyLongType2]],\n    second_var: list[dict[\n        MyLongType3, MyLongType4]],\n) -> None:\n  ...\n```\n\nIf a single name and type is too long, consider using an\nalias for the type. The last resort is to break after the\ncolon and indent by 4.\n\n```python\nYes:\ndef my_function(\n    long_variable_name:\n        long_module_name.LongTypeName,\n) -> None:\n  ...\n```\n\n```python\nNo:\ndef my_function(\n    long_variable_name: long_module_name.\n        LongTypeName,\n) -> None:\n  ...\n```",
+        "6f759f75-da06-4cb7-87d9-bb5fc032e1ba": "from \\_\\_future\\_\\_ imports\n\nUse of `from __future__ import` statements is encouraged. It allows a given\nsource file to start using more modern Python syntax features today. Once you no\nlonger need to run on a version where the features are hidden behind a\n`__future__` import, feel free to remove those lines.\n\nIn code that may execute on versions as old as 3.5 rather than >= 3.7, import:\n\n```python\nfrom __future__ import generator_stop\n```\n\nFor more information read the\nPython future statement definitions\ndocumentation.\n\nPlease don't remove these imports until you are confident the code is only ever\nused in a sufficiently modern environment. Even if you do not currently use the\nfeature a specific future import enables in your code today, keeping it in place\nin the file prevents later modifications of the code from inadvertently\ndepending on the older behavior.\n\nUse other `from __future__` import statements as you see fit.",
+        "71b04e3e-9f84-4d79-9b7f-f20d64ede9c0": "3 Python Style Rules",
+        "721f7c91-85bd-4f7c-a01b-7d6bfaecff2b": "2.2.3 Cons\n\nModule names can still collide. Some module names are inconveniently long.",
+        "7260b8f1-aab4-4ec1-8110-2fa672d6f3a4": "2.5 Mutable Global State\n\nAvoid mutable global state.",
+        "72ceea03-d1a7-42bd-af48-d1eefd4b7b55": "2.13 Properties\n\nProperties may be used to control getting or setting attributes that require\ntrivial computations or logic. Property implementations must match the general\nexpectations of regular attribute access: that they are cheap, straightforward,\nand unsurprising.",
+        "74399fa4-329b-4f20-a3b5-8b49d2fa59f6": "2.10.1 Definition\n\nLambdas define anonymous functions in an expression, as opposed to a statement.",
+        "75c5f30c-6a46-41e1-81e3-b962266901d4": "2.13.1 Definition\n\nA way to wrap method calls for getting and setting an attribute as a standard\nattribute access.",
+        "78a78be2-cfd1-4524-8527-6cb6551bb93f": "2.20 Modern Python: from \\_\\_future\\_\\_ imports\n\nNew language version semantic changes may be gated behind a special future\nimport to enable them on a per-file basis within earlier runtimes.",
+        "78c50f57-70cc-4e98-9c9a-7526b8892b56": "3.19.7 Ignoring Types\n\nYou can disable type checking on a line with the special comment `# type:\nignore`.\n\n`pytype` has a disable option for specific errors (similar to lint):\n\n```python\n# pytype: disable=attribute-error\n```",
+        "7a71faa2-65e8-477b-8927-35eba24cb591": "2.20.1 Definition\n\nBeing able to turn on some of the more modern features via `from __future__\nimport` statements allows early use of features from expected future Python\nversions.",
+        "7b9fe19a-55ab-49e1-be7b-b8a9bfacf567": "2.10 Lambda Functions\n\nOkay for one-liners. Prefer generator expressions over `map()` or `filter()`\nwith a `lambda`.",
+        "7d4dfe85-b58b-43bb-8bc1-cb1364bf3a5e": "4 Parting Words\n\n*BE CONSISTENT*.\n\nIf you're editing code, take a few minutes to look at the code around you and\ndetermine its style. If they use `_idx` suffixes in index variable names, you\nshould too. If their comments have little boxes of hash marks around them, make\nyour comments have little boxes of hash marks around them too.\n\nThe point of having style guidelines is to have a common vocabulary of coding so\npeople can concentrate on what you're saying rather than on how you're saying\nit. We present global style rules here so people know the vocabulary, but local\nstyle is also important. If code you add to a file looks drastically different\nfrom the existing code around it, it throws readers out of their rhythm when\nthey go to read it.\n\nHowever, there are limits to consistency. It applies more heavily locally and on\nchoices unspecified by the global style. Consistency should not generally be\nused as a justification to do things in an old style without considering the\nbenefits of the new style, or the tendency of the codebase to converge on newer\nstyles over time.",
+        "7ff11104-8581-4ae7-99d9-7e288fe5f732": "2.8.4 Decision\n\nUse default iterators and operators for types that support them, like lists,\ndictionaries, and files. The built-in types define iterator methods, too. Prefer\nthese methods to methods that return lists, except that you should not mutate a\ncontainer while iterating over it.\n\n```python\nYes:  for key in adict: ...\n      if obj in alist: ...\n      for line in afile: ...\n      for k, v in adict.items(): ...\n```\n\n```python\nNo:   for key in adict.keys(): ...\n      for line in afile.readlines(): ...\n```",
+        "803aebc9-b220-4f84-a926-69d9ff86a48b": "3.4.1 Trailing commas in sequences of items?\n\nTrailing commas in sequences of items are recommended only when the closing\ncontainer token `]`, `)`, or `}` does not appear on the same line as the final\nelement, as well as for tuples with a single element. The presence of a trailing\ncomma is also used as a hint to our Python code auto-formatter\nBlack or Pyink\nto direct it to auto-format the container of items to one item per line when the\n`,` after the final element is present.\n\n```python\nYes:   golomb3 = [0, 1, 3]\n       golomb4 = [\n           0,\n           1,\n           4,\n           6,\n       ]\n```\n\n```python\nNo:    golomb4 = [\n           0,\n           1,\n           4,\n           6,]\n```",
+        "807b2a04-a4fb-44d4-875b-a173a22064a6": "3.19.8 Typing Variables\n\n\n*Annotated Assignments*\n:   If an internal variable has a type that is hard or impossible to infer,\n    specify its type with an annotated assignment - use a colon and type between\n    the variable name and value (the same as is done with function arguments\n    that have a default value):\n\n    ```python\n    a: Foo = SomeUndecoratedFunction()\n    ```\n\n\n*Type Comments*\n:   Though you may see them remaining in the codebase (they were necessary\n    before Python 3.6), do not add any more uses of a `# type: `\n    comment on the end of the line:\n\n    ```python\n    a = SomeUndecoratedFunction()  # type: Foo\n    ```",
+        "8479c97a-f363-4b34-ae5a-d23ea7387668": "2.7.1 Definition\n\nList, Dict, and Set comprehensions as well as generator expressions provide a\nconcise and efficient way to create container types and iterators without\nresorting to the use of traditional loops, `map()`, `filter()`, or `lambda`.",
+        "85eddc48-a234-43bb-aee8-ac5d200cfb70": "2.12.1 Definition\n\nYou can specify values for variables at the end of a function's parameter list,\ne.g., `def foo(a, b=0):`. If `foo` is called with only one argument, `b` is set\nto 0. If it is called with two arguments, `b` has the value of the second\nargument.",
+        "88a81e5e-1b74-4a3e-b751-3064a70ad93a": "3.19.10 Type variables\n\nThe Python type system has\ngenerics. A type variable, such as\n`TypeVar` and `ParamSpec`, is a common way to use them.\n\nExample:\n\n```python\nfrom collections.abc import Callable\nfrom typing import ParamSpec, TypeVar\n_P = ParamSpec(\"_P\")\n_T = TypeVar(\"_T\")\n...\ndef next(l: list[_T]) -> _T:\n  return l.pop()\n\ndef print_when_called(f: Callable[_P, _T]) -> Callable[_P, _T]:\n  def inner(*args: _P.args, **kwargs: _P.kwargs) -> _T:\n    print(\"Function was called\")\n    return f(*args, **kwargs)\n  return inner\n```\n\nA `TypeVar` can be constrained:\n\n```python\nAddableType = TypeVar(\"AddableType\", int, float, str)\ndef add(a: AddableType, b: AddableType) -> AddableType:\n  return a + b\n```\n\nA common predefined type variable in the `typing` module is `AnyStr`. Use it for\nmultiple annotations that can be `bytes` or `str` and must all be the same type.\n\n```python\nfrom typing import AnyStr\ndef check_length(x: AnyStr) -> AnyStr:\n  if len(x) <= 42:\n    return x\n  raise ValueError()\n```\n\nA type variable must have a descriptive name, unless it meets all of the\nfollowing criteria:\n\n*   not externally visible\n*   not constrained\n\n```python\nYes:\n  _T = TypeVar(\"_T\")\n  _P = ParamSpec(\"_P\")\n  AddableType = TypeVar(\"AddableType\", int, float, str)\n  AnyFunction = TypeVar(\"AnyFunction\", bound=Callable)\n```\n\n```python\nNo:\n  T = TypeVar(\"T\")\n  P = ParamSpec(\"P\")\n  _T = TypeVar(\"_T\", int, float, str)\n  _F = TypeVar(\"_F\", bound=Callable)\n```",
+        "8a4fd32e-6e8f-45de-be58-928d8152e5ed": "2.19.1 Definition\n\nPython is an extremely flexible language and gives you many fancy features such\nas custom metaclasses, access to bytecode, on-the-fly compilation, dynamic\ninheritance, object reparenting, import hacks, reflection (e.g. some uses of\n`getattr()`), modification of system internals, `__del__` methods implementing\ncustomized cleanup, etc.",
+        "8b6adc80-2ae8-4ca2-bb8c-4a2e37194908": "2.7 Comprehensions & Generator Expressions\n\nOkay to use for simple cases.",
+        "8d23c408-d557-4ed3-8bd4-ce6c4a8b544e": "2.16.4 Decision\n\nOkay to use.",
+        "8ed98559-c9cc-4d24-a705-55d05be8f2b4": "2.6.2 Pros\n\nAllows definition of utility classes and functions that are only used inside of\na very limited scope. Very\nADT-y. Commonly used for\nimplementing decorators.",
+        "92e96a90-1944-4b2b-a27c-c8759ee8a6dd": "3.17 Main\n\nIn Python, `pydoc` as well as unit tests require modules to be importable. If a\nfile is meant to be used as an executable, its main functionality should be in a\n`main()` function, and your code should always check `if __name__ == '__main__'`\nbefore executing your main program, so that it is not executed when the module\nis imported.\n\nWhen using absl, use `app.run`:\n\n```python\nfrom absl import app\n...\n\ndef main(argv: Sequence[str]):\n    # process non-flag arguments\n    ...\n\nif __name__ == '__main__':\n    app.run(main)\n```\n\nOtherwise, use:\n\n```python\ndef main():\n    ...\n\nif __name__ == '__main__':\n    main()\n```\n\nAll code at the top level will be executed when the module is imported. Be\ncareful not to call functions, create objects, or perform other operations that\nshould not be executed when the file is being `pydoc`ed.",
+        "956f56b0-2905-469f-9e34-657482e0a9f6": "3.8.6 Punctuation, Spelling, and Grammar\n\nPay attention to punctuation, spelling, and grammar; it is easier to read\nwell-written comments than badly written ones.\n\nComments should be as readable as narrative text, with proper capitalization and\npunctuation. In many cases, complete sentences are more readable than sentence\nfragments. Shorter comments, such as comments at the end of a line of code, can\nsometimes be less formal, but you should be consistent with your style.\n\nAlthough it can be frustrating to have a code reviewer point out that you are\nusing a comma when you should be using a semicolon, it is very important that\nsource code maintain a high level of clarity and readability. Proper\npunctuation, spelling, and grammar help with that goal.",
+        "978dbecc-0570-4562-a806-ba00d94e3fdc": "2.5.3 Cons\n\n*   Breaks encapsulation: Such design can make it hard to achieve valid\n    objectives. For example, if global state is used to manage a database\n    connection, then connecting to two different databases at the same time\n    (such as for computing differences during a migration) becomes difficult.\n    Similar problems easily arise with global registries.\n\n*   Has the potential to change module behavior during the import, because\n    assignments to global variables are done when the module is first imported.",
+        "97f413dc-4640-4f41-aebb-c69376bdc189": "3.10 Strings\n\nUse an\nf-string,\nthe `%` operator, or the `format` method for formatting strings, even when the\nparameters are all strings. Use your best judgment to decide between string\nformatting options. A single join with `+` is okay but do not format with `+`.\n\n```python\nYes: x = f'name: {name}; score: {n}'\n     x = '%s, %s!' % (imperative, expletive)\n     x = '{}, {}'.format(first, second)\n     x = 'name: %s; score: %d' % (name, n)\n     x = 'name: %(name)s; score: %(score)d' % {'name':name, 'score':n}\n     x = 'name: {}; score: {}'.format(name, n)\n     x = a + b\n```\n\n```python\nNo: x = first + ', ' + second\n    x = 'name: ' + name + '; score: ' + str(n)\n```\n\nAvoid using the `+` and `+=` operators to accumulate a string within a loop. In\nsome conditions, accumulating a string with addition can lead to quadratic\nrather than linear running time. Although common accumulations of this sort may\nbe optimized on CPython, that is an implementation detail. The conditions under\nwhich an optimization applies are not easy to predict and may change. Instead,\nadd each substring to a list and `''.join` the list after the loop terminates,\nor write each substring to an `io.StringIO` buffer. These techniques\nconsistently have amortized-linear run-time complexity.\n\n```python\nYes: items = ['']\n     for last_name, first_name in employee_list:\n         items.append('%s, %s' % (last_name, first_name))\n     items.append('')\n     employee_table = ''.join(items)\n```\n\n```python\nNo: employee_table = ''\n    for last_name, first_name in employee_list:\n        employee_table += '%s, %s' % (last_name, first_name)\n    employee_table += ''\n```\n\nBe consistent with your choice of string quote character within a file. Pick `'`\nor `\"` and stick with it. It is okay to use the other quote character on a\nstring to avoid the need to backslash-escape quote characters within the string.\n\n```python\nYes:\n  Python('Why are you hiding your eyes?')\n  Gollum(\"I'm scared of lint errors.\")\n  Narrator('\"Good!\" thought a happy Python reviewer.')\n```\n\n```python\nNo:\n  Python(\"Why are you hiding your eyes?\")\n  Gollum('The lint. It burns. It burns us.')\n  Gollum(\"Always the great lint. Watching. Watching.\")\n```\n\nPrefer `\"\"\"` for multi-line strings rather than `'''`. Projects may choose to\nuse `'''` for all non-docstring multi-line strings if and only if they also use\n`'` for regular strings. Docstrings must use `\"\"\"` regardless.\n\nMulti-line strings do not flow with the indentation of the rest of the program.\nIf you need to avoid embedding extra space in the string, use either\nconcatenated single-line strings or a multi-line string with\n`textwrap.dedent()`\nto remove the initial space on each line:\n\n```python\n  No:\n  long_string = \"\"\"This is pretty ugly.\nDon't do this.\n\"\"\"\n```\n\n```python\n  Yes:\n  long_string = \"\"\"This is fine if your use case can accept\n      extraneous leading spaces.\"\"\"\n```\n\n```python\n  Yes:\n  long_string = (\"And this is fine if you cannot accept\\n\" +\n                 \"extraneous leading spaces.\")\n```\n\n```python\n  Yes:\n  long_string = (\"And this too is fine if you cannot accept\\n\"\n                 \"extraneous leading spaces.\")\n```\n\n```python\n  Yes:\n  import textwrap\n\n  long_string = textwrap.dedent(\"\"\"\\\n      This is also fine, because textwrap.dedent()\n      will collapse common leading spaces in each line.\"\"\")\n```\n\nNote that using a backslash here does not violate the prohibition against\nexplicit line continuation; in this case, the backslash is\nescaping a newline\nin a string literal.",
+        "9861d536-9274-4c12-9855-2e4bf102471a": "3.8.2 Modules\n\nEvery file should contain license boilerplate. Choose the appropriate boilerplate for the license used by the project (for example, Apache 2.0, BSD, LGPL, GPL).\n\nFiles should start with a docstring describing the contents and usage of the\nmodule.\n```python\n\"\"\"A one-line summary of the module or program, terminated by a period.\n\nLeave one blank line.  The rest of this docstring should contain an\noverall description of the module or program.  Optionally, it may also\ncontain a brief description of exported classes and functions and/or usage\nexamples.\n\nTypical usage example:\n\n  foo = ClassFoo()\n  bar = foo.FunctionBar()\n\"\"\"\n```",
+        "98953b20-0657-41b3-88cd-487f5443cc9b": "2.8.1 Definition\n\nContainer types, like dictionaries and lists, define default iterators and\nmembership test operators (\"in\" and \"not in\").",
+        "98f967ee-65ff-49ff-a164-cd150698461c": "2.12.4 Decision\n\nOkay to use with the following caveat:\n\nDo not use mutable objects as default values in the function or method\ndefinition.\n\n```python\nYes: def foo(a, b=None):\n         if b is None:\n             b = []\nYes: def foo(a, b: Sequence | None = None):\n         if b is None:\n             b = []\nYes: def foo(a, b: Sequence = ()):  # Empty tuple OK since tuples are immutable.\n         ...\n```\n\n```python\nfrom absl import flags\n_FOO = flags.DEFINE_string(...)\n\nNo:  def foo(a, b=[]):\n         ...\nNo:  def foo(a, b=time.time()):  # Is `b` supposed to represent when this module was loaded?\n         ...\nNo:  def foo(a, b=_FOO.value):  # sys.argv has not yet been parsed...\n         ...\nNo:  def foo(a, b: Mapping = {}):  # Could still get passed to unchecked code.\n         ...\n```",
+        "9a98402e-afff-466e-8e9f-96528d135291": "2 Python Language Rules",
+        "9b7d9070-a35d-46ae-a04a-9d357bf4fcb9": "3.19.12 Imports For Typing\n\nFor symbols (including types, functions, and constants) from the `typing` or\n`collections.abc` modules used to support static analysis and type checking,\nalways import the symbol itself. This keeps common annotations more concise and\nmatches typing practices used around the world. You are explicitly allowed to\nimport multiple specific symbols on one line from the `typing` and\n`collections.abc` modules. For example:\n\n```python\nfrom collections.abc import Mapping, Sequence\nfrom typing import Any, Generic, cast, TYPE_CHECKING\n```\n\nGiven that this way of importing adds items to the local namespace, names in\n`typing` or `collections.abc` should be treated similarly to keywords, and not\nbe defined in your Python code, typed or not. If there is a collision between a\ntype and an existing name in a module, import it using `import x as y`.\n\n```python\nfrom typing import Any as AnyType\n```\n\nPrefer to use built-in types as annotations where available. Python supports\ntype annotations using parametric container types via\nPEP-585, introduced in Python 3.9.\n\n```python\ndef generate_foo_scores(foo: set[str]) -> list[float]:\n  ...\n```",
+        "9b9a5bb6-a088-4df0-b535-596d237f8af1": "2.16.3 Cons\n\nCan lead to confusing bugs, such as this example based on\nPEP-0227:\n\n```python\ni = 4\ndef foo(x: Iterable[int]):\n    def bar():\n        print(i, end='')\n    # ...\n    # A bunch of code here\n    # ...\n    for i in x:  # Ah, i *is* local to foo, so this is what bar sees\n        print(i, end='')\n    bar()\n```\n\nSo `foo([1, 2, 3])` will print `1 2 3 3`,\nnot `1 2 3 4`.",
+        "9b9aa1a6-8682-4cb0-9913-fc79221a5f97": "2.6.1 Definition\n\nA class can be defined inside of a method, function, or class. A function can be\ndefined inside a method or function. Nested functions have read-only access to\nvariables defined in enclosing scopes.",
+        "9c3b4734-974c-47f7-904b-8a9979a902c3": "3.12 TODO Comments\n\nUse `TODO` comments for code that is temporary, a short-term solution, or\ngood-enough but not perfect.\n\nA `TODO` comment begins with the word `TODO` in all caps, a following colon, and\na link to a resource that contains the context, ideally a bug reference. A bug\nreference is preferable because bugs are tracked and have follow-up comments.\nFollow this piece of context with an explanatory string introduced with a hyphen\n`-`. \nThe purpose is to have a consistent `TODO` format that can be searched to find\nout how to get more details. \n\n```python\n# TODO: crbug.com/192795 - Investigate cpufreq optimizations.\n```\n\nOld style, formerly recommended, but discouraged for use in new code:\n\n\n```python\n# TODO(crbug.com/192795): Investigate cpufreq optimizations.\n# TODO(yourusername): Use a \"\\*\" here for concatenation operator.\n```\n\nAvoid adding TODOs that refer to an individual or team as the context:\n\n```python\n# TODO: @yourusername - File an issue and use a '*' for repetition.\n```\n\nIf your `TODO` is of the form \"At a future date do something\" make sure that you\neither include a very specific date (\"Fix by November 2009\") or a very specific\nevent (\"Remove this code when all clients can handle XML responses.\") that\nfuture code maintainers will comprehend. Issues are ideal for tracking this.",
+        "9c3bf65c-c524-4318-9419-657c237ada9b": "2.11.2 Pros\n\nShorter and more convenient than an if statement.",
+        "9c8914d9-177f-45da-b5ad-040389738ee8": "3.8.3.1 Overridden Methods\n\nA method that overrides a method from a base class does not need a docstring if\nit is explicitly decorated with\n`@override`\n(from `typing_extensions` or `typing` modules), unless the overriding method's\nbehavior materially refines the base method's contract, or details need to be\nprovided (e.g., documenting additional side effects), in which case a docstring\nwith at least those differences is required on the overriding method.\n\n```python\nfrom typing_extensions import override\n\nclass Parent:\n  def do_something(self):\n    \"\"\"Parent method, includes docstring.\"\"\"\n\n# Child class, method annotated with override.\nclass Child(Parent):\n  @override\n  def do_something(self):\n    pass\n```\n\n```python\n# Child class, but without @override decorator, a docstring is required.\nclass Child(Parent):\n  def do_something(self):\n    pass\n\n# Docstring is trivial, @override is sufficient to indicate that docs can be\n# found in the base class.\nclass Child(Parent):\n  @override\n  def do_something(self):\n    \"\"\"See base class.\"\"\"\n```",
+        "9e1be02f-9358-4a00-8ebe-031ae9819198": "2.17.1 Definition\n\nDecorators for Functions and Methods\n(a.k.a \"the `@` notation\"). One common decorator is `@property`, used for\nconverting ordinary methods into dynamically computed attributes. However, the\ndecorator syntax allows for user-defined decorators as well. Specifically, for\nsome function `my_decorator`, this:\n\n```python\nclass C:\n    @my_decorator\n    def method(self):\n        # method body ...\n```\n\nis equivalent to:\n\n```python\nclass C:\n    def method(self):\n        # method body ...\n    method = my_decorator(method)\n```",
+        "a34a646f-e7a4-4f97-881f-3fd766ed8e1d": "2.6 Nested/Local/Inner Classes and Functions\n\nNested local functions or classes are fine when used to close over a local\nvariable. Inner classes are fine.",
+        "a62874e1-0778-4dee-a311-7e07e275600b": "2.13.3 Cons\n\n*   Can hide side-effects much like operator overloading.\n*   Can be confusing for subclasses.",
+        "a8a2eb7f-cda3-46a4-ab72-1a5ee97fcd19": "2.5.4 Decision\n\nAvoid mutable global state.\n\nIn those rare cases where using global state is warranted, mutable global\nentities should be declared at the module level or as a class attribute and made\ninternal by prepending an `_` to the name. If necessary, external access to\nmutable global state must be done through public functions or class methods. See\nNaming below. Please explain the design reasons why mutable\nglobal state is being used in a comment or a doc linked to from a comment.\n\nModule-level constants are permitted and encouraged. For example:\n`_MAX_HOLY_HANDGRENADE_COUNT = 3` for an internal use constant or\n`SIR_LANCELOTS_FAVORITE_COLOR = \"blue\"` for a public API constant. Constants\nmust be named using all caps with underscores. See Naming\nbelow.",
+        "ab500230-bed3-4f16-a78c-5f13590350c4": "2.6.3 Cons\n\nNested functions and classes cannot be directly tested. Nesting can make the\nouter function longer and less readable.",
+        "abd1be5f-b9e6-49bf-b5c1-0e70e872c34b": "2.21.4 Decision\n\nYou are strongly encouraged to enable Python type analysis when updating code.\nWhen adding or modifying public APIs, include type annotations and enable\nchecking via pytype in the build system. As static analysis is relatively new to\nPython, we acknowledge that undesired side-effects (such as\nwrongly\ninferred types) may prevent adoption by some projects. In those situations,\nauthors are encouraged to add a comment with a TODO or link to a bug describing\nthe issue(s) currently preventing type annotation adoption in the BUILD file or\nin the code itself as appropriate.",
+        "aee7bdbc-d58d-4a5c-b5f7-11fc2c435c99": "2.2.4 Decision\n\n*   Use `import x` for importing packages and modules.\n*   Use `from x import y` where `x` is the package prefix and `y` is the module\n    name with no prefix.\n*   Use `from x import y as z` in any of the following circumstances:\n    -   Two modules named `y` are to be imported.\n    -   `y` conflicts with a top-level name defined in the current module.\n    -   `y` conflicts with a common parameter name that is part of the public\n        API (e.g., `features`).\n    -   `y` is an inconveniently long name.\n    -   `y` is too generic in the context of your code (e.g., `from\n        storage.file_system import options as fs_options`).\n*   Use `import y as z` only when `z` is a standard abbreviation (e.g., `import\n    numpy as np`).\n\nFor example the module `sound.effects.echo` may be imported as follows:\n\n```python\nfrom sound.effects import echo\n...\necho.EchoFilter(input, output, delay=0.7, atten=4)\n```\n\nDo not use relative names in imports. Even if the module is in the same package,\nuse the full package name. This helps prevent unintentionally importing a\npackage twice.",
+        "b1d7cdf6-c66a-4de7-aec6-feb6f3cb991b": "1 Background\n\nPython is the main dynamic language used at Google. This style guide is a list\nof *dos and don'ts* for Python programs.\n\nTo help you format code correctly, we've created a settings file for Vim. For Emacs, the default settings should be fine.\n\nMany teams use the Black or Pyink\nauto-formatter to avoid arguing over formatting.",
+        "b1dabef7-64f4-4516-859c-6d75de99b384": "2.7.3 Cons\n\nComplicated comprehensions or generator expressions can be hard to read.",
+        "b37a3428-10f8-45bf-8736-3362b9ba3ef6": "3.2 Line length\n\nMaximum line length is *80 characters*.\n\nExplicit exceptions to the 80 character limit:\n\n-   Long import statements.\n-   URLs, pathnames, or long flags in comments.\n-   Long string module-level constants not containing whitespace that would be\n    inconvenient to split across lines such as URLs or pathnames.\n    -   Pylint disable comments. (e.g.: `# pylint: disable=invalid-name`)\n\nDo not use a backslash for\nexplicit line continuation.\n\nInstead, make use of Python's\nimplicit line joining inside parentheses, brackets and braces.\nIf necessary, you can add an extra pair of parentheses around an expression.\n\nNote that this rule doesn't prohibit backslash-escaped newlines within strings\n(see below).\n\n```python\nYes: foo_bar(self, width, height, color='black', design=None, x='foo',\n             emphasis=None, highlight=0)\n```\n\n```python\n\nYes: if (width == 0 and height == 0 and\n         color == 'red' and emphasis == 'strong'):\n\n     (bridge_questions.clarification_on\n      .average_airspeed_of.unladen_swallow) = 'African or European?'\n\n     with (\n         very_long_first_expression_function() as spam,\n         very_long_second_expression_function() as beans,\n         third_thing() as eggs,\n     ):\n       place_order(eggs, beans, spam, beans)\n```\n\n```python\n\nNo:  if width == 0 and height == 0 and \\\n         color == 'red' and emphasis == 'strong':\n\n     bridge_questions.clarification_on \\\n         .average_airspeed_of.unladen_swallow = 'African or European?'\n\n     with very_long_first_expression_function() as spam, \\\n           very_long_second_expression_function() as beans, \\\n           third_thing() as eggs:\n       place_order(eggs, beans, spam, beans)\n```\n\nWhen a literal string won't fit on a single line, use parentheses for implicit\nline joining.\n\n```python\nx = ('This will build a very long long '\n     'long long long long long long string')\n```\n\nPrefer to break lines at the highest possible syntactic level. If you must break\na line twice, break it at the same syntactic level both times.\n\n```python\nYes: bridgekeeper.answer(\n         name=\"Arthur\", quest=questlib.find(owner=\"Arthur\", perilous=True))\n\n     answer = (a_long_line().of_chained_methods()\n               .that_eventually_provides().an_answer())\n\n     if (\n         config is None\n         or 'editor.language' not in config\n         or config['editor.language'].use_spaces is False\n     ):\n       use_tabs()\n```\n\n```python\nNo: bridgekeeper.answer(name=\"Arthur\", quest=questlib.find(\n        owner=\"Arthur\", perilous=True))\n\n    answer = a_long_line().of_chained_methods().that_eventually_provides(\n        ).an_answer()\n\n    if (config is None or 'editor.language' not in config or config[\n        'editor.language'].use_spaces is False):\n      use_tabs()\n\n```\n\nWithin comments, put long URLs on their own line if necessary.\n\n```python\nYes:  # See details at\n      # http://www.example.com/us/developer/documentation/api/content/v2.0/csv_file_name_extension_full_specification.html\n```\n\n```python\nNo:  # See details at\n     # http://www.example.com/us/developer/documentation/api/content/\\\n     # v2.0/csv_file_name_extension_full_specification.html\n```\n\nMake note of the indentation of the elements in the line continuation examples\nabove; see the indentation section for explanation.\n\nIn all other cases where a line exceeds 80 characters, and the\nBlack or Pyink\nauto-formatter does not help bring the line below the limit, the line is allowed\nto exceed this maximum. Authors are encouraged to manually break the line up per\nthe notes above when it is sensible.",
+        "b489c57a-5143-451a-9d10-6d490fd69d5f": "2.7.2 Pros\n\nSimple comprehensions can be clearer and simpler than other dict, list, or set\ncreation techniques. Generator expressions can be very efficient, since they\navoid the creation of a list entirely.",
+        "b5755093-e392-4606-a910-c653a82a2658": "2.1.1 Definition\n\n`pylint`\nis a tool for finding bugs and style problems in Python source code. It finds\nproblems that are typically caught by a compiler for less dynamic languages like\nC and C++. Because of the dynamic nature of Python, some\nwarnings may be incorrect; however, spurious warnings should be fairly\ninfrequent.",
+        "b5863d9a-1c15-4607-bf21-62a13c7a19e4": "3.8.5 Block and Inline Comments\n\nThe final place to have comments is in tricky parts of the code. If you're going\nto have to explain it at the next code review,\nyou should comment it now. Complicated operations get a few lines of comments\nbefore the operations commence. Non-obvious ones get comments at the end of the\nline.\n\n```python\n# We use a weighted dictionary search to find out where i is in\n# the array.  We extrapolate position based on the largest num\n# in the array and the array size and then do binary search to\n# get the exact number.\n\nif i & (i-1) == 0:  # True if i is 0 or a power of 2.\n```\n\nTo improve legibility, these comments should start at least 2 spaces away from\nthe code with the comment character `#`, followed by at least one space before\nthe text of the comment itself.\n\nOn the other hand, never describe the code. Assume the person reading the code\nknows Python (though not what you're trying to do) better than you do.\n\n```python\n# BAD COMMENT: Now go through the b array and make sure whenever i occurs\n# the next element is i+1\n```",
+        "b694238a-54c0-427b-bf9e-013120ee5fe7": "3.15 Getters and Setters\n\nGetter and setter functions (also called accessors and mutators) should be used\nwhen they provide a meaningful role or behavior for getting or setting a\nvariable's value.\n\nIn particular, they should be used when getting or setting the variable is\ncomplex or the cost is significant, either currently or in a reasonable future.\n\nIf, for example, a pair of getters/setters simply read and write an internal\nattribute, the internal attribute should be made public instead. By comparison,\nif setting a variable means some state is invalidated or rebuilt, it should be a\nsetter function. The function invocation hints that a potentially non-trivial\noperation is occurring. Alternatively, properties may be an\noption when simple logic is needed, or refactoring to no longer need getters and\nsetters.\n\nGetters and setters should follow the Naming guidelines, such\nas `get_foo()` and `set_foo()`.\n\nIf the past behavior allowed access through a property, do not bind the new\ngetter/setter functions to the property. Any code still attempting to access the\nvariable by the old method should break visibly so they are made aware of the\nchange in complexity.",
+        "b76feaf1-9019-4bdf-a7fa-475ee170cb8f": "2.14.1 Definition\n\nPython evaluates certain values as `False` when in a boolean context. A quick\n\"rule of thumb\" is that all \"empty\" values are considered false, so `0, None,\n[], {}, ''` all evaluate as false in a boolean context.",
+        "b9808d05-9606-4f8d-ab84-f9ad69d9e518": "2.3 Packages\n\nImport each module using the full pathname location of the module.",
+        "b9d80d49-1567-431b-8fc2-b37946758493": "3.19.13 Conditional Imports\n\nUse conditional imports only in exceptional cases where the additional imports\nneeded for type checking must be avoided at runtime. This pattern is\ndiscouraged; alternatives such as refactoring the code to allow top-level\nimports should be preferred.\n\nImports that are needed only for type annotations can be placed within an `if\nTYPE_CHECKING:` block.\n\n-   Conditionally imported types need to be referenced as strings, to be forward\n    compatible with Python 3.6 where the annotation expressions are actually\n    evaluated.\n-   Only entities that are used solely for typing should be defined here; this\n    includes aliases. Otherwise it will be a runtime error, as the module will\n    not be imported at runtime.\n-   The block should be right after all the normal imports.\n-   There should be no empty lines in the typing imports list.\n-   Sort this list as if it were a regular imports list.\n```python\nimport typing\nif typing.TYPE_CHECKING:\n  import sketch\ndef f(x: \"sketch.Sketch\"): ...\n```",
+        "b9ed741e-6214-4d49-9664-721a614a549a": "Google Python Style Guide\n\n\n\n\n  Table of Contents\n\n-   1 Background\n-   2 Python Language Rules\n    *   2.1 Lint\n    *   2.2 Imports\n    *   2.3 Packages\n    *   2.4 Exceptions\n    *   2.5 Mutable Global State\n    *   2.6 Nested/Local/Inner Classes and Functions\n    *   2.7 Comprehensions & Generator Expressions\n    *   2.8 Default Iterators and Operators\n    *   2.9 Generators\n    *   2.10 Lambda Functions\n    *   2.11 Conditional Expressions\n    *   2.12 Default Argument Values\n    *   2.13 Properties\n    *   2.14 True/False Evaluations\n    *   2.16 Lexical Scoping\n    *   2.17 Function and Method Decorators\n    *   2.18 Threading\n    *   2.19 Power Features\n    *   2.20 Modern Python: from \\_\\_future\\_\\_ imports\n    *   2.21 Type Annotated Code\n-   3 Python Style Rules\n    *   3.1 Semicolons\n    *   3.2 Line length\n    *   3.3 Parentheses\n    *   3.4 Indentation\n        +   3.4.1 Trailing commas in sequences of items?\n    *   3.5 Blank Lines\n    *   3.6 Whitespace\n    *   3.7 Shebang Line\n    *   3.8 Comments and Docstrings\n        +   3.8.1 Docstrings\n        +   3.8.2 Modules\n        +   3.8.2.1 Test modules\n        +   3.8.3 Functions and Methods\n        +   3.8.3.1 Overridden Methods\n        +   3.8.4 Classes\n        +   3.8.5 Block and Inline Comments\n        +   3.8.6 Punctuation, Spelling, and Grammar\n    *   3.10 Strings\n        +   3.10.1 Logging\n        +   3.10.2 Error Messages\n    *   3.11 Files, Sockets, and similar Stateful Resources\n    *   3.12 TODO Comments\n    *   3.13 Imports formatting\n    *   3.14 Statements\n    *   3.15 Accessors\n    *   3.16 Naming\n        +   3.16.1 Names to Avoid\n        +   3.16.2 Naming Conventions\n        +   3.16.3 File Naming\n        +   3.16.4 Guidelines derived from Guido's Recommendations\n    *   3.17 Main\n    *   3.18 Function length\n    *   3.19 Type Annotations\n        +   3.19.1 General Rules\n        +   3.19.2 Line Breaking\n        +   3.19.3 Forward Declarations\n        +   3.19.4 Default Values\n        +   3.19.5 NoneType\n        +   3.19.6 Type Aliases\n        +   3.19.7 Ignoring Types\n        +   3.19.8 Typing Variables\n        +   3.19.9 Tuples vs Lists\n        +   3.19.10 Type variables\n        +   3.19.11 String types\n        +   3.19.12 Imports For Typing\n        +   3.19.13 Conditional Imports\n        +   3.19.14 Circular Dependencies\n        +   3.19.15 Generics\n        +   3.19.16 Build Dependencies\n-   4 Parting Words",
+        "baa2c7c1-7ac5-4e3c-ad00-8371274f1273": "2.7.4 Decision\n\nComprehensions are allowed, however multiple `for` clauses or filter expressions\nare not permitted. Optimize for readability, not conciseness.\n\n```python\nYes:\n  result = [mapping_expr for value in iterable if filter_expr]\n\n  result = [\n      is_valid(metric={'key': value})\n      for value in interesting_iterable\n      if a_longer_filter_expression(value)\n  ]\n\n  descriptive_name = [\n      transform({'key': key, 'value': value}, color='black')\n      for key, value in generate_iterable(some_input)\n      if complicated_condition_is_met(key, value)\n  ]\n\n  result = []\n  for x in range(10):\n    for y in range(5):\n      if x * y > 10:\n        result.append((x, y))\n\n  return {\n      x: complicated_transform(x)\n      for x in long_generator_function(parameter)\n      if x is not None\n  }\n\n  return (x**2 for x in range(10))\n\n  unique_names = {user.name for user in users if user is not None}\n```\n\n```python\nNo:\n  result = [(x, y) for x in range(10) for y in range(5) if x * y > 10]\n\n  return (\n      (x, y, z)\n      for x in range(5)\n      for y in range(5)\n      if x != y\n      for z in range(5)\n      if y != z\n  )\n```",
+        "bfc4f755-c439-4d63-bf11-a40e8c60ca46": "2.11.4 Decision\n\nOkay to use for simple cases. Each portion must fit on one line:\ntrue-expression, if-expression, else-expression. Use a complete if statement\nwhen things get more complicated.\n\n```python\nYes:\n    one_line = 'yes' if predicate(value) else 'no'\n    slightly_split = ('yes' if predicate(value)\n                      else 'no, nein, nyet')\n    the_longest_ternary_style_that_can_be_done = (\n        'yes, true, affirmative, confirmed, correct'\n        if predicate(value)\n        else 'no, false, negative, nay')\n```\n\n```python\nNo:\n    bad_line_breaking = ('yes' if predicate(value) else\n                         'no')\n    portion_too_long = ('yes'\n                        if some_long_module.some_long_predicate_function(\n                            really_long_variable_name)\n                        else 'no, false, negative, nay')\n```",
+        "c490e713-8e91-4d15-acee-8c9d7bc4a391": "2.17.3 Cons\n\nDecorators can perform arbitrary operations on a function's arguments or return\nvalues, resulting in surprising implicit behavior. Additionally, decorators\nexecute at object definition time. For module-level objects (classes, module\nfunctions, ...) this happens at import time. Failures in decorator code are\npretty much impossible to recover from.",
+        "c514537d-b376-46b6-9af5-f3bfa5f25c7c": "3.5 Blank Lines\n\nTwo blank lines between top-level definitions, be they function or class\ndefinitions. One blank line between method definitions and between the docstring\nof a `class` and the first method. No blank line following a `def` line. Use\nsingle blank lines as you judge appropriate within functions or methods.\n\nBlank lines need not be anchored to the definition. For example, related\ncomments immediately preceding function, class, and method definitions can make\nsense. Consider if your comment might be more useful as part of the docstring.",
+        "c51f31f6-ad33-482e-bc5e-9fce0e49cf97": "3.19.4 Default Values\n\nAs per PEP-008, use\nspaces around the `=` *only* for arguments that have both a type annotation and\na default value.\n\n```python\nYes:\ndef func(a: int = 0) -> int:\n  ...\n```\n\n```python\nNo:\ndef func(a:int=0) -> int:\n  ...\n```",
+        "c53f6713-c2f8-4179-97c1-27678ae3b315": "2.13.2 Pros\n\n*   Allows for an attribute access and assignment API rather than\n    getter and setter method calls.\n*   Can be used to make an attribute read-only.\n*   Allows calculations to be lazy.\n*   Provides a way to maintain the public interface of a class when the\n    internals evolve independently of class users.",
+        "c55c0140-3e4b-4bcb-bc86-b5edfc4215fb": "2.8 Default Iterators and Operators\n\nUse default iterators and operators for types that support them, like lists,\ndictionaries, and files.",
+        "c616530c-d83a-4d68-9250-360b39c2c6b5": "3.19.15 Generics\n\nWhen annotating, prefer to specify type parameters for generic types; otherwise,\nthe generics' parameters will be assumed to be `Any`.\n\n```python\n# Yes:\ndef get_names(employee_ids: Sequence[int]) -> Mapping[int, str]:\n  ...\n```\n\n```python\n# No:\n# This is interpreted as get_names(employee_ids: Sequence[Any]) -> Mapping[Any, Any]\ndef get_names(employee_ids: Sequence) -> Mapping:\n  ...\n```\n\nIf the best type parameter for a generic is `Any`, make it explicit, but\nremember that in many cases `TypeVar` might be more\nappropriate:\n\n```python\n# No:\ndef get_names(employee_ids: Sequence[Any]) -> Mapping[Any, str]:\n  \"\"\"Returns a mapping from employee ID to employee name for given IDs.\"\"\"\n```\n\n```python\n# Yes:\n_T = TypeVar('_T')\ndef get_names(employee_ids: Sequence[_T]) -> Mapping[_T, str]:\n  \"\"\"Returns a mapping from employee ID to employee name for given IDs.\"\"\"\n```",
+        "c7b9c232-2cf9-46f3-8d93-1da383e35e9d": "2.19.3 Cons\n\nIt's very tempting to use these \"cool\" features when they're not absolutely\nnecessary. It's harder to read, understand, and debug code that's using unusual\nfeatures underneath. It doesn't seem that way at first (to the original author),\nbut when revisiting the code, it tends to be more difficult than code that is\nlonger but is straightforward.",
+        "c82954c8-4cb0-4924-ac8b-a88b96d63952": "2.17.2 Pros\n\nElegantly specifies some transformation on a method; the transformation might\neliminate some repetitive code, enforce invariants, etc.",
+        "c884e7c6-19f1-4ac4-b2d8-0d4a28610e47": "2.20.4 Decision",
+        "c8c8260e-bbe7-4a6a-8f49-48f22076ec35": "3.16.4 Guidelines derived from Guido's Recommendations\n\n<table rules=\"all\" border=\"1\" summary=\"Guidelines from Guido's Recommendations\"\n       cellspacing=\"2\" cellpadding=\"2\">\n\n  \n    Type\n    Public\n    Internal\n  \n\n  \n    Packages\n    lower_with_under\n    \n  \n\n  \n    Modules\n    lower_with_under\n    _lower_with_under\n  \n\n  \n    Classes\n    CapWords\n    _CapWords\n  \n\n  \n    Exceptions\n    CapWords\n    \n  \n\n  \n    Functions\n    lower_with_under()\n    _lower_with_under()\n  \n\n  \n    Global/Class Constants\n    CAPS_WITH_UNDER\n    _CAPS_WITH_UNDER\n  \n\n  \n    Global/Class Variables\n    lower_with_under\n    _lower_with_under\n  \n\n  \n    Instance Variables\n    lower_with_under\n    _lower_with_under (protected)\n  \n\n  \n    Method Names\n    lower_with_under()\n    _lower_with_under() (protected)\n  \n\n  \n    Function/Method Parameters\n    lower_with_under\n    \n  \n\n  \n    Local Variables\n    lower_with_under",
+        "cb32987e-0f17-4354-a00b-bd9ff85beaf0": "2.16 Lexical Scoping\n\nOkay to use.",
+        "cbc5080f-1210-4ea8-9303-c16521ee992f": "2.21.2 Pros\n\nType annotations improve the readability and maintainability of your code. The\ntype checker will convert many runtime errors to build-time errors, and reduce\nyour ability to use Power Features.",
+        "ccb4001d-0d52-4be2-98b2-423c3997eeff": "2.17.4 Decision\n\nUse decorators judiciously when there is a clear advantage. Decorators should\nfollow the same import and naming guidelines as functions. Decorator pydoc\nshould clearly state that the function is a decorator. Write unit tests for\ndecorators.\n\nAvoid external dependencies in the decorator itself (e.g. don't rely on files,\nsockets, database connections, etc.), since they might not be available when the\ndecorator runs (at import time, perhaps from `pydoc` or other tools). A\ndecorator that is called with valid parameters should (as much as possible) be\nguaranteed to succeed in all cases.\n\nDecorators are a special case of \"top-level code\" - see main for\nmore discussion.\n\nNever use `staticmethod` unless forced to in order to integrate with an API\ndefined in an existing library. Write a module-level function instead.\n\nUse `classmethod` only when writing a named constructor, or a class-specific\nroutine that modifies necessary global state such as a process-wide cache.",
+        "cd45ea3c-9400-4346-9efc-88b2a5f70b1a": "2.12.3 Cons\n\nDefault arguments are evaluated once at module load time. This may cause\nproblems if the argument is a mutable object such as a list or a dictionary. If\nthe function modifies the object (e.g., by appending an item to a list), the\ndefault value is modified.",
+        "d0453fe8-38b6-438d-a346-ec6821576018": "3.16 Naming\n\n`module_name`, `package_name`, `ClassName`, `method_name`, `ExceptionName`,\n`function_name`, `GLOBAL_CONSTANT_NAME`, `global_var_name`, `instance_var_name`,\n`function_parameter_name`, `local_var_name`, `query_proper_noun_for_thing`,\n`send_acronym_via_https`.\n\n\nFunction names, variable names, and filenames should be descriptive; avoid\nabbreviation. In particular, do not use abbreviations that are ambiguous or\nunfamiliar to readers outside your project, and do not abbreviate by deleting\nletters within a word.\n\nAlways use a `.py` filename extension. Never use dashes.",
+        "d1b51413-f317-48b2-abfe-bdea133496ca": "2.14.4 Decision\n\nUse the \"implicit\" false if possible, e.g., `if foo:` rather than `if foo !=\n[]:`. There are a few caveats that you should keep in mind though:\n\n-   Always use `if foo is None:` (or `is not None`) to check for a `None` value.\n    E.g., when testing whether a variable or argument that defaults to `None`\n    was set to some other value. The other value might be a value that's false\n    in a boolean context!\n\n-   Never compare a boolean variable to `False` using `==`. Use `if not x:`\n    instead. If you need to distinguish `False` from `None` then chain the\n    expressions, such as `if not x and x is not None:`.\n\n-   For sequences (strings, lists, tuples), use the fact that empty sequences\n    are false, so `if seq:` and `if not seq:` are preferable to `if len(seq):`\n    and `if not len(seq):` respectively.\n\n-   When handling integers, implicit false may involve more risk than benefit\n    (i.e., accidentally handling `None` as 0). You may compare a value which is\n    known to be an integer (and is not the result of `len()`) against the\n    integer 0.\n\n    ```python\n    Yes: if not users:\n             print('no users')\n\n         if i % 10 == 0:\n             self.handle_multiple_of_ten()\n\n         def f(x=None):\n             if x is None:\n                 x = []\n    ```\n\n    ```python\n    No:  if len(users) == 0:\n             print('no users')\n\n         if not i % 10:\n             self.handle_multiple_of_ten()\n\n         def f(x=None):\n             x = x or []\n    ```\n\n-   Note that `'0'` (i.e., `0` as string) evaluates to true.\n\n-   Note that Numpy arrays may raise an exception in an implicit boolean\n    context. Prefer the `.size` attribute when testing emptiness of a `np.array`\n    (e.g. `if not users.size`).",
+        "d227eff7-fde3-4f2a-9d65-36cde13f786e": "2.8.3 Cons\n\nYou can't tell the type of objects by reading the method names (unless the\nvariable has type annotations). This is also an advantage.",
+        "d29449ee-5258-4b85-9b1b-baf22aa9f609": "2.2.1 Definition\n\nReusability mechanism for sharing code from one module to another.",
+        "d3d76298-33fb-4a38-80ca-98d8e8ae52cf": "2.9.4 Decision\n\nFine. Use \"Yields:\" rather than \"Returns:\" in the docstring for generator\nfunctions.\n\nIf the generator manages an expensive resource, make sure to force the clean up.\n\nA good way to do the clean up is by wrapping the generator with a context\nmanager PEP-0533.",
+        "d73df855-b414-423a-b39d-a84e5c76fcad": "2.9.3 Cons\n\nLocal variables in the generator will not be garbage collected until the\ngenerator is either consumed to exhaustion or itself garbage collected.",
+        "d752835d-86b8-4e93-9d52-7cbd09d0833c": "2.20.2 Pros\n\nThis has proven to make runtime version upgrades smoother as changes can be made\non a per-file basis while declaring compatibility and preventing regressions\nwithin those files. Modern code is more maintainable as it is less likely to\naccumulate technical debt that will be problematic during future runtime\nupgrades.",
+        "d77cbad8-b2db-4d25-a242-d1b2ee46e92b": "2.4.3 Cons\n\nMay cause the control flow to be confusing. Easy to miss error cases when making\nlibrary calls.",
+        "dd9b8a6a-77cd-4aee-a212-7b72c3a93224": "3.19.1 General Rules\n\n*   Familiarize yourself with PEP-484.\n\n*   Annotating `self` or `cls` is generally not necessary.\n    `Self` can be\n    used if it is necessary for proper type information, e.g.\n\n    ```python\n    from typing import Self\n\n    class BaseClass:\n      @classmethod\n      def create(cls) -> Self:\n        ...\n\n      def difference(self, other: Self) -> float:\n        ...\n    ```\n\n*   Similarly, don't feel compelled to annotate the return value of `__init__`\n    (where `None` is the only valid option).\n\n*   If any other variable or a returned type should not be expressed, use `Any`.\n\n*   You are not required to annotate all the functions in a module.\n\n    -   At least annotate your public APIs.\n    -   Use judgment to get to a good balance between safety and clarity on the\n        one hand, and flexibility on the other.\n    -   Annotate code that is prone to type-related errors (previous bugs or\n        complexity).\n    -   Annotate code that is hard to understand.\n    -   Annotate code as it becomes stable from a types perspective. In many\n        cases, you can annotate all the functions in mature code without losing\n        too much flexibility.",
+        "df2f62fb-9b05-418d-8b0e-54f1397188b3": "3.14 Statements\n\nGenerally only one statement per line.\n\nHowever, you may put the result of a test on the same line as the test only if\nthe entire statement fits on one line. In particular, you can never do so with\n`try`/`except` since the `try` and `except` can't both fit on the same line, and\nyou can only do so with an `if` if there is no `else`.\n\n```python\nYes:\n\n  if foo: bar(foo)\n```\n\n```python\nNo:\n\n  if foo: bar(foo)\n  else:   baz(foo)\n\n  try:               bar(foo)\n  except ValueError: baz(foo)\n\n  try:\n      bar(foo)\n  except ValueError: baz(foo)\n```",
+        "dfc01548-1d00-4529-9e86-97ab6cddbe8e": "3.7 Shebang Line\n\nMost `.py` files do not need to start with a `#!` line. Start the main file of a\nprogram with\n`#!/usr/bin/env python3` (to support virtualenvs) or `#!/usr/bin/python3` per\nPEP-394.\n\nThis line is used by the kernel to find the Python interpreter, but is ignored by Python when importing modules. It is only necessary on a file intended to be executed directly.",
+        "dfcf3388-5876-4a47-87ea-8dc6bccfcc3d": "3.18 Function length\n\nPrefer small and focused functions.\n\nWe recognize that long functions are sometimes appropriate, so no hard limit is\nplaced on function length. If a function exceeds about 40 lines, think about\nwhether it can be broken up without harming the structure of the program.\n\nEven if your long function works perfectly now, someone modifying it in a few\nmonths may add new behavior. This could result in bugs that are hard to find.\nKeeping your functions short and simple makes it easier for other people to read\nand modify your code.\n\nYou could find long and complicated functions when working with\nsome\ncode. Do not be intimidated by modifying existing code: if working with such a\nfunction proves to be difficult, you find that errors are hard to debug, or you\nwant to use a piece of it in several different contexts, consider breaking up\nthe function into smaller and more manageable pieces.",
+        "e0813114-3a39-43d4-9347-36225824e29e": "2.12.2 Pros\n\nOften you have a function that uses lots of default values, but on rare\noccasions you want to override the defaults. Default argument values provide an\neasy way to do this, without having to define lots of functions for the rare\nexceptions. As Python does not support overloaded methods/functions, default\narguments are an easy way of \"faking\" the overloading behavior.",
+        "e0e6bd14-069f-4bbf-9dc9-e62dd8cf0bfe": "2.1 Lint\n\nRun `pylint` over your code using this pylintrc.",
+        "e1a99950-8474-4e11-9c10-297dd269a4f5": "2.10.2 Pros\n\nConvenient.",
+        "e1b3400f-9981-4a1c-abc1-1fa9d22e5a26": "2.11.1 Definition\n\nConditional expressions (sometimes called a \u201cternary operator\u201d) are mechanisms\nthat provide a shorter syntax for if statements. For example: `x = 1 if cond\nelse 2`.",
+        "e221519a-6747-4a47-b514-9c1893a66083": "2.14.3 Cons\n\nMay look strange to C/C++ developers.",
+        "e27e274c-9743-42f3-9260-bb3eb44e4ef7": "2.14 True/False Evaluations\n\nUse the \"implicit\" false if at all possible (with a few caveats).",
+        "e2a07882-766f-4068-909b-005fe966cee9": "2.16.1 Definition\n\nA nested Python function can refer to variables defined in enclosing functions,\nbut cannot assign to them. Variable bindings are resolved using lexical scoping,\nthat is, based on the static program text. Any assignment to a name in a block\nwill cause Python to treat all references to that name as a local variable, even\nif the use precedes the assignment. If a global declaration occurs, the name is\ntreated as a global variable.\n\nAn example of the use of this feature is:\n\n```python\ndef get_adder(summand1: float) -> Callable[[float], float]:\n    \"\"\"Returns a function that adds numbers to a given number.\"\"\"\n    def adder(summand2: float) -> float:\n        return summand1 + summand2\n\n    return adder\n```",
+        "e2a3d0ba-aea8-4a9e-8c3e-72d8785c24db": "2.19 Power Features\n\nAvoid these features.",
+        "e3c396a9-9c6d-40d1-ae4d-f49a9da5619e": "3.8.1 Docstrings\n\nPython uses *docstrings* to document code. A docstring is a string that is the\nfirst statement in a package, module, class or function. These strings can be\nextracted automatically through the `__doc__` member of the object and are used\nby `pydoc`.\n(Try running `pydoc` on your module to see how it looks.) Always use the\nthree-double-quote `\"\"\"` format for docstrings (per\nPEP 257). A docstring should be organized\nas a summary line (one physical line not exceeding 80 characters) terminated by\na period, question mark, or exclamation point. When writing more (encouraged),\nthis must be followed by a blank line, followed by the rest of the docstring\nstarting at the same cursor position as the first quote of the first line. There\nare more formatting guidelines for docstrings below.",
+        "e440a8f9-c504-4757-b4e0-4dce816dc598": "2.5.1 Definition\n\nModule-level values or class attributes that can get mutated during program\nexecution.",
+        "e7429165-5730-4861-8a5e-ad48e0747c21": "3.8.4 Classes\n\nClasses should have a docstring below the class definition describing the class.\nPublic attributes, excluding properties, should be documented\nhere in an `Attributes` section and follow the same formatting as a\nfunction's `Args` section.\n\n```python\nclass SampleClass:\n    \"\"\"Summary of class here.\n\n    Longer class information...\n    Longer class information...\n\n    Attributes:\n        likes_spam: A boolean indicating if we like SPAM or not.\n        eggs: An integer count of the eggs we have laid.\n    \"\"\"\n\n    def __init__(self, likes_spam: bool = False):\n        \"\"\"Initializes the instance based on spam preference.\n\n        Args:\n          likes_spam: Defines if instance exhibits this preference.\n        \"\"\"\n        self.likes_spam = likes_spam\n        self.eggs = 0\n\n    @property\n    def butter_sticks(self) -> int:\n        \"\"\"The number of butter sticks we have.\"\"\"\n```\n\nAll class docstrings should start with a one-line summary that describes what\nthe class instance represents. This implies that subclasses of `Exception`\nshould also describe what the exception represents, and not the context in which\nit might occur. The class docstring should not repeat unnecessary information,\nsuch as that the class is a class.\n\n```python\n# Yes:\nclass CheeseShopAddress:\n  \"\"\"The address of a cheese shop.\n\n  ...\n  \"\"\"\n\nclass OutOfCheeseError(Exception):\n  \"\"\"No more cheese is available.\"\"\"\n```\n\n```python\n# No:\nclass CheeseShopAddress:\n  \"\"\"Class that describes the address of a cheese shop.\n\n  ...\n  \"\"\"\n\nclass OutOfCheeseError(Exception):\n  \"\"\"Raised when no more cheese is available.\"\"\"\n```",
+        "efebb688-63da-4008-8121-43289af87103": "2.9 Generators\n\nUse generators as needed.",
+        "f8d93d51-4006-4e24-9b66-49ea38f5213a": "3.19.9 Tuples vs Lists\n\nTyped lists can only contain objects of a single type. Typed tuples can either\nhave a single repeated type or a set number of elements with different types.\nThe latter is commonly used as the return type from a function.\n\n```python\na: list[int] = [1, 2, 3]\nb: tuple[int, ...] = (1, 2, 3)\nc: tuple[int, str, float] = (1, \"2\", 3.5)\n```",
+        "fc13e392-fe71-40cc-92bb-2f8ecc5f5274": "3.8.3 Functions and Methods\n\nIn this section, \"function\" means a method, function, generator, or property.\n\nA docstring is mandatory for every function that has one or more of the\nfollowing properties:\n\n-   being part of the public API\n-   nontrivial size\n-   non-obvious logic\n\nA docstring should give enough information to write a call to the function\nwithout reading the function's code. The docstring should describe the\nfunction's calling syntax and its semantics, but generally not its\nimplementation details, unless those details are relevant to how the function is\nto be used. For example, a function that mutates one of its arguments as a side\neffect should note that in its docstring. Otherwise, subtle but important\ndetails of a function's implementation that are not relevant to the caller are\nbetter expressed as comments alongside the code than within the function's\ndocstring.\n\nThe docstring may be descriptive-style (`\"\"\"Fetches rows from a Bigtable.\"\"\"`)\nor imperative-style (`\"\"\"Fetch rows from a Bigtable.\"\"\"`), but the style should\nbe consistent within a file. The docstring for a `@property` data descriptor\nshould use the same style as the docstring for an attribute or a\nfunction argument (`\"\"\"The Bigtable path.\"\"\"`,\nrather than `\"\"\"Returns the Bigtable path.\"\"\"`).\n\nCertain aspects of a function should be documented in special sections, listed\nbelow. Each section begins with a heading line, which ends with a colon. All\nsections other than the heading should maintain a hanging indent of two or four\nspaces (be consistent within a file). These sections can be omitted in cases\nwhere the function's name and signature are informative enough that it can be\naptly described using a one-line docstring.\n\n\n*Args:*\n:   List each parameter by name. A description should follow the name, and be\n    separated by a colon followed by either a space or newline. If the\n    description is too long to fit on a single 80-character line, use a hanging\n    indent of 2 or 4 spaces more than the parameter name (be consistent with the\n    rest of the docstrings in the file). The description should include required\n    type(s) if the code does not contain a corresponding type annotation. If a\n    function accepts `*foo` (variable length argument lists) and/or `**bar`\n    (arbitrary keyword arguments), they should be listed as `*foo` and `**bar`.\n\n\n*Returns:* (or *Yields:* for generators)\n:   Describe the semantics of the return value, including any type information\n    that the type annotation does not provide. If the function only returns\n    None, this section is not required. It may also be omitted if the docstring\n    starts with \"Return\", \"Returns\", \"Yield\", or \"Yields\" (e.g. `\"\"\"Returns row\n    from Bigtable as a tuple of strings.\"\"\"`) *and* the opening sentence is\n    sufficient to describe the return value. Do not imitate older 'NumPy style'\n    (example),\n    which frequently documented a tuple return value as if it were multiple\n    return values with individual names (never mentioning the tuple). Instead,\n    describe such a return value as: \"Returns: A tuple (mat_a, mat_b), where\n    mat_a is ..., and ...\". The auxiliary names in the docstring need not\n    necessarily correspond to any internal names used in the function body (as\n    those are not part of the API). If the function uses `yield` (is a\n    generator), the `Yields:` section should document the object returned by\n    `next()`, instead of the generator object itself that the call evaluates to.",
+        "fd9e03a5-a3c8-4dcc-8f81-d0d1aeca927c": "2.21.3 Cons\n\nYou will have to keep the type declarations up to date.\nYou might see type errors that you think are\nvalid code. Use of a\ntype checker\nmay reduce your ability to use Power Features.",
+        "fef9be2b-446e-4df2-8c27-c75f201785a8": "3.16.2 Naming Conventions\n\n-   \"Internal\" means internal to a module, or protected or private within a\n    class.\n\n-   Prepending a single underscore (`_`) has some support for protecting module\n    variables and functions (linters will flag protected member access). Note\n    that it is okay for unit tests to access protected constants from the\n    modules under test.\n\n-   Prepending a double underscore (`__` aka \"dunder\") to an instance variable\n    or method effectively makes the variable or method private to its class\n    (using name mangling); we discourage its use as it impacts readability and\n    testability, and isn't *really* private. Prefer a single underscore.\n\n-   Place related classes and top-level functions together in a\n    module.\n    Unlike Java, there is no need to limit yourself to one class per module.\n\n-   Use CapWords for class names, but lower\\_with\\_under.py for module names.\n    Although there are some old modules named CapWords.py, this is now\n    discouraged because it's confusing when the module happens to be named after\n    a class. (\"wait -- did I write `import StringIO` or `from StringIO import\n    StringIO`?\")\n\n-   New *unit test* files follow PEP 8 compliant lower\\_with\\_under method\n    names, for example, `test__`. For consistency(\\*)\n    with legacy modules that follow CapWords function names, underscores may\n    appear in method names starting with `test` to separate logical components\n    of the name. One possible pattern is `test_`."
+    },
+    "relevant_docs": {
+        "a897c2bb-32dd-40ab-9f02-289580197fe5": [
+            "00e2890f-a7da-421d-8ff1-5be519cca356"
+        ],
+        "f8233fb6-7a66-422c-a230-f755c34b611c": [
+            "01c57db7-bed5-4a78-9a30-68d95e5af08d"
+        ],
+        "a8fe4930-9583-402a-8677-9257bde772ce": [
+            "01f33f46-3575-43eb-b918-40ef03bff2c6"
+        ],
+        "b3389de0-c379-4364-9a7e-f35a4a3bbb84": [
+            "05619da7-0da4-4e85-9b63-ed6dceb5213e"
+        ],
+        "e522f508-0752-40f3-8f97-422207e664e1": [
+            "0c196617-b35a-413d-86a7-2881c7f6f18d"
+        ],
+        "f9c341b7-8cfd-4b4d-b0c1-7d4087db0ba6": [
+            "0c9f725d-f26b-413b-a266-d632e50f7dd9"
+        ],
+        "b2dd7426-711d-452a-9418-39113741b191": [
+            "0f1a0c41-fca9-4ba8-a991-7e86ccf5163a"
+        ],
+        "d30dea74-8589-4336-a2b8-9ab72156741c": [
+            "0f8ab1ce-d2d5-41f4-93d4-a1d0f7d48cf7"
+        ],
+        "f4f5391c-474a-47ab-acaf-dbf318d03a28": [
+            "1033b874-eed6-49eb-a701-b7dcbccc7c9a"
+        ],
+        "7e2c47de-5a92-42bc-81de-9ef84f50a012": [
+            "141c40a6-4924-43fe-9749-19f7c2abd00e"
+        ],
+        "a27353e2-ce44-4b96-b5b0-5caa95050182": [
+            "15062841-d236-47e2-b51f-81cb527100c7"
+        ],
+        "6eab22e2-6321-4ee3-a42e-bb75f949f593": [
+            "16666acf-dc94-4823-af60-168436b995a3"
+        ],
+        "e8b3bae5-46d7-461e-97bb-304fb61348fc": [
+            "173c1767-9d21-4150-bf4c-7661bebb0366"
+        ],
+        "14a7a982-2d9a-4f32-aaf5-7deb9ad21fa2": [
+            "1872e286-357e-4427-9526-d83aea147f5e"
+        ],
+        "e0b1a2be-7858-495c-9c40-5a0f247bafcd": [
+            "18974100-c35b-4f2e-b873-2e5b87e6eacb"
+        ],
+        "daee356b-fcf4-4017-93b4-2ccdc82b5b5e": [
+            "1c52fff2-de1a-436c-a09f-be99246e41cb"
+        ],
+        "7e6c37de-19b7-471f-a7d7-36989ae95473": [
+            "1d5081e7-5a2f-4d90-a2cb-2d28d56584b9"
+        ],
+        "2f94566f-c018-454c-8272-e9298cdef917": [
+            "200c745b-b65d-407d-b37f-75c6cb3f562a"
+        ],
+        "ce628929-5f00-4585-82c4-cf6942f1fba5": [
+            "2813f0d2-e603-4b67-b150-06e646297f59"
+        ],
+        "faaf1d53-7094-471d-82bc-8ca50b74054b": [
+            "2878723c-2bef-469f-afdc-9f9cf5990513"
+        ],
+        "86f727e6-4824-498a-b65c-7296d7bceba6": [
+            "2930a056-eb80-44a6-b1c6-654436095ae0"
+        ],
+        "f80f95d5-1430-46b5-9760-bee952c5bc62": [
+            "2a38cfd9-804d-47f2-8274-0b411a93e866"
+        ],
+        "b464685b-9950-48a5-9a9e-7ca86039e440": [
+            "2bef6293-72ed-41b7-8c42-e490a41c63a9"
+        ],
+        "5e08e055-75c8-4bed-b9af-70b502141599": [
+            "2ee6d9a5-ce22-434b-9e0b-d8cb51a61c2b"
+        ],
+        "20894919-7097-4ba9-99d1-a24a5de2a9d0": [
+            "314250e7-c4e8-43f2-a56c-522e623e435f"
+        ],
+        "73564ac4-5206-4fc2-8cfe-c5ed07d23807": [
+            "33454540-7356-4bad-83bc-d577c1017c0e"
+        ],
+        "638d0021-8efb-48f6-b66b-2bad5eef281c": [
+            "3705557d-4cce-436d-b5fc-5fdd729cc02d"
+        ],
+        "7d18c1cd-9329-4ccb-8658-57ab0d0bc389": [
+            "3bc71b5a-0e3e-446b-8a44-b423bca4780c"
+        ],
+        "7d4c7189-e347-43f6-83bd-a026a6d9c0e5": [
+            "3f07272f-dcfe-473d-bbc2-265370712e39"
+        ],
+        "4222d4a1-7d1e-4850-8c7e-b5d4b4936042": [
+            "3fa213ce-ec86-4206-b3d4-c130efddb02a"
+        ],
+        "450f2476-68ab-4fee-a3cb-3eeea3c5c2fd": [
+            "41875176-bf9b-46c9-a3eb-1bf9342a8043"
+        ],
+        "71d88388-931d-4a95-be6b-0599c47c9f5b": [
+            "42145351-29c6-416d-8a0c-1fb90cd0c13c"
+        ],
+        "49fbbcb0-0baf-4c1e-814d-2297eb26f5c4": [
+            "45e6ce38-d3d2-49c4-8c0a-285e8e39f895"
+        ],
+        "d249a86b-9dad-4dd7-9840-46b6892f80ca": [
+            "4747fce8-4007-4f81-8c61-c7f4b815010a"
+        ],
+        "16bd81ba-1070-412d-9b35-e4def77650e2": [
+            "48079570-ece5-4052-a273-b1113eec5e3e"
+        ],
+        "7e33f9f5-5088-4e34-bd2d-f9964f5c91f5": [
+            "48edb676-741c-4637-a5fd-b9ca409c4a21"
+        ],
+        "1fe94945-792a-4289-8744-df489308df9b": [
+            "491fff31-7296-426e-a19b-84c157a96cf1"
+        ],
+        "f19932f2-9707-4661-9d5b-aa66c099a8a3": [
+            "4aeea665-7074-4b21-a8d1-15e30434e2e5"
+        ],
+        "93d7f22e-4664-4a76-9c1c-1f163b3f6829": [
+            "4b05b124-2924-4628-acb3-95902100d0df"
+        ],
+        "125dcc89-b3c7-48d8-90f7-fb67c18e1af9": [
+            "4b862533-7d64-4f87-86d6-dec752e726aa"
+        ],
+        "f35ac018-a3f2-45ec-8eff-1b4d1dd1ae79": [
+            "4cd4f588-a9d8-4195-923d-e8f60d179a66"
+        ],
+        "7bfc27a6-fce4-4d18-aa8b-68bb7bd3f8ec": [
+            "51dc9496-6548-4415-90f1-87c6f5462926"
+        ],
+        "0621abdc-a21e-4158-8f21-7fccef2d0978": [
+            "52f11a29-4134-40bf-880e-810aea8cc09a"
+        ],
+        "78eb473c-a775-4722-8103-a724371d8ab8": [
+            "54bdb356-5216-4d31-9e2f-7f4502b956cc"
+        ],
+        "22af28eb-85f0-4258-8d33-018db1ac272d": [
+            "560987da-1fa6-41e9-b7ff-11657415189b"
+        ],
+        "c02a0d54-8e60-4f3b-aaa4-7f985aa20d27": [
+            "5705c6b8-b9ec-4ef1-835f-286c91a39457"
+        ],
+        "c5b4085e-db7e-408a-bc14-280ab5cd0c47": [
+            "59ac56ca-e8c9-4a12-bc9a-c0f7819b93ef"
+        ],
+        "64307f51-96b7-406a-aada-222cacdde966": [
+            "5a05354a-434c-4524-a68d-40c736303763"
+        ],
+        "48ad3bd6-5e52-4ce4-a864-2a1f6a0498af": [
+            "5b978811-156f-43cd-9871-fffb6d1069fd"
+        ],
+        "bc449623-2e80-4412-a67f-eb47f183652b": [
+            "5eb86086-5187-43c4-9e9d-272c7f4d98a8"
+        ],
+        "78466a1a-34c7-49f0-9fb2-ddede20db15f": [
+            "602bdeec-2420-40ec-b04e-426a32808745"
+        ],
+        "4bdd5605-3829-4c67-a5c1-78f4f361981c": [
+            "61085d43-eaee-4690-a727-81cd3f7ff091"
+        ],
+        "a696d969-dd75-4824-a7fc-f2c649967fe6": [
+            "66b7c0a8-6152-483f-a391-0e703283a31b"
+        ],
+        "8854ffb5-9a7a-4ed0-821b-abc1fc0780e1": [
+            "6a3b2553-cbcf-4222-9e32-ff28daf159b0"
+        ],
+        "db0e3170-1f1a-4f67-a8ae-a45f1873eaad": [
+            "6a9f70e3-8bd0-46b1-bb08-83662ac2467d"
+        ],
+        "c87c6d98-7eb6-412b-9bc2-70ed9640a7a4": [
+            "6f759f75-da06-4cb7-87d9-bb5fc032e1ba"
+        ],
+        "2fe650f1-f6f5-4af7-9ef6-f7cbcc6df0ae": [
+            "71b04e3e-9f84-4d79-9b7f-f20d64ede9c0"
+        ],
+        "85617630-cfa1-4137-a3d3-f521b9edf208": [
+            "721f7c91-85bd-4f7c-a01b-7d6bfaecff2b"
+        ],
+        "6579f335-ac82-43e3-a01c-db65e1bf7f32": [
+            "7260b8f1-aab4-4ec1-8110-2fa672d6f3a4"
+        ],
+        "2ed3eb2b-07cd-4695-8b3b-04c0c454faff": [
+            "72ceea03-d1a7-42bd-af48-d1eefd4b7b55"
+        ],
+        "c42edec9-0db4-4c11-942a-b96666d460d4": [
+            "74399fa4-329b-4f20-a3b5-8b49d2fa59f6"
+        ],
+        "5f396b4e-7268-4df1-95ff-dbf386bb7030": [
+            "75c5f30c-6a46-41e1-81e3-b962266901d4"
+        ],
+        "988dd768-219f-4a1c-88b0-607f3617d343": [
+            "78a78be2-cfd1-4524-8527-6cb6551bb93f"
+        ],
+        "d370f7c7-91be-4280-b0da-8cfe70a2a0d8": [
+            "78c50f57-70cc-4e98-9c9a-7526b8892b56"
+        ],
+        "eebe9324-c6d0-48ca-9f12-803df98ed375": [
+            "7a71faa2-65e8-477b-8927-35eba24cb591"
+        ],
+        "4553ff83-f7cc-4945-9f0b-d17c74b03288": [
+            "7b9fe19a-55ab-49e1-be7b-b8a9bfacf567"
+        ],
+        "2b5f99c7-7388-442b-bb75-8146f2fcd5b2": [
+            "7d4dfe85-b58b-43bb-8bc1-cb1364bf3a5e"
+        ],
+        "57065881-a2c3-4ed5-bc48-fcd6d0720944": [
+            "7ff11104-8581-4ae7-99d9-7e288fe5f732"
+        ],
+        "80fdcbc2-a5d4-4d93-967e-9a29b1625826": [
+            "803aebc9-b220-4f84-a926-69d9ff86a48b"
+        ],
+        "d1f74ca1-818c-43ed-847d-8519c1f60b0a": [
+            "807b2a04-a4fb-44d4-875b-a173a22064a6"
+        ],
+        "d06d6faa-54d1-417d-9280-72079655dd09": [
+            "8479c97a-f363-4b34-ae5a-d23ea7387668"
+        ],
+        "e73ba4b8-a903-4c9d-bb70-14a8f580099b": [
+            "85eddc48-a234-43bb-aee8-ac5d200cfb70"
+        ],
+        "5ff1e6ea-8e48-4a53-9a9d-5b9b5697fef0": [
+            "88a81e5e-1b74-4a3e-b751-3064a70ad93a"
+        ],
+        "06de1479-2086-4b8b-aaa9-c581f6169cd9": [
+            "8a4fd32e-6e8f-45de-be58-928d8152e5ed"
+        ],
+        "58dd3d6d-ef1f-491b-a240-3e33f1fae646": [
+            "8b6adc80-2ae8-4ca2-bb8c-4a2e37194908"
+        ],
+        "95748e71-1e9a-4b05-b282-e193a7321ccf": [
+            "8d23c408-d557-4ed3-8bd4-ce6c4a8b544e"
+        ],
+        "903ec65c-4715-46f3-901e-3f9b6315a37a": [
+            "8ed98559-c9cc-4d24-a705-55d05be8f2b4"
+        ],
+        "499439e8-89c6-484b-887c-88fcd80b7325": [
+            "92e96a90-1944-4b2b-a27c-c8759ee8a6dd"
+        ],
+        "9f030f06-fa38-46ae-8999-23e500e46ce6": [
+            "956f56b0-2905-469f-9e34-657482e0a9f6"
+        ],
+        "8f6eb6df-b352-446f-844d-7115fbe7f048": [
+            "978dbecc-0570-4562-a806-ba00d94e3fdc"
+        ],
+        "0fe8b90b-9d80-430c-8e6f-cfb507fd1aa7": [
+            "97f413dc-4640-4f41-aebb-c69376bdc189"
+        ],
+        "8a0b9f78-a31e-4d47-9861-fc1b7cf10723": [
+            "9861d536-9274-4c12-9855-2e4bf102471a"
+        ],
+        "5ff3b667-824c-49cf-a896-d3c1ee1375f3": [
+            "98953b20-0657-41b3-88cd-487f5443cc9b"
+        ],
+        "3a79f537-978a-4d2c-b8a0-52207a6de384": [
+            "98f967ee-65ff-49ff-a164-cd150698461c"
+        ],
+        "4aacdf94-f163-4f34-a9d3-8485b01c1e18": [
+            "9a98402e-afff-466e-8e9f-96528d135291"
+        ],
+        "8699b93f-3077-4856-88c9-33bfff50eeb4": [
+            "9b7d9070-a35d-46ae-a04a-9d357bf4fcb9"
+        ],
+        "c8659006-05c8-4a26-af38-6880a98d3e64": [
+            "9b9a5bb6-a088-4df0-b535-596d237f8af1"
+        ],
+        "707509e2-cf08-4908-8287-162b49534f28": [
+            "9b9aa1a6-8682-4cb0-9913-fc79221a5f97"
+        ],
+        "803db55d-3918-4cc6-918e-30ba5e90c5aa": [
+            "9c3b4734-974c-47f7-904b-8a9979a902c3"
+        ],
+        "575e8521-c681-4579-bf69-db35935d8dda": [
+            "9c3bf65c-c524-4318-9419-657c237ada9b"
+        ],
+        "df7f66cd-9acc-4ecd-b6bf-c5302371472c": [
+            "9c8914d9-177f-45da-b5ad-040389738ee8"
+        ],
+        "0d48337e-4777-415a-a941-a4385c869c6d": [
+            "9e1be02f-9358-4a00-8ebe-031ae9819198"
+        ],
+        "a3352fb4-e25c-4f7f-bf39-cae056bade24": [
+            "a34a646f-e7a4-4f97-881f-3fd766ed8e1d"
+        ],
+        "3a723b52-fb79-431c-bcbe-336380d8a6ad": [
+            "a62874e1-0778-4dee-a311-7e07e275600b"
+        ],
+        "7ba984d9-b5e4-4882-ba9c-01844bdf5143": [
+            "a8a2eb7f-cda3-46a4-ab72-1a5ee97fcd19"
+        ],
+        "2361c121-1f57-489e-80ee-59f025864ad1": [
+            "ab500230-bed3-4f16-a78c-5f13590350c4"
+        ],
+        "ac867524-ed59-48c4-a566-3689d00c2c57": [
+            "abd1be5f-b9e6-49bf-b5c1-0e70e872c34b"
+        ],
+        "888e2a9b-eb26-4f2a-a4ce-11683d963726": [
+            "aee7bdbc-d58d-4a5c-b5f7-11fc2c435c99"
+        ],
+        "0158fdda-48db-42b0-8112-7995985a4004": [
+            "b1d7cdf6-c66a-4de7-aec6-feb6f3cb991b"
+        ],
+        "9d052c79-943d-4750-9838-9dcb8e41e587": [
+            "b1dabef7-64f4-4516-859c-6d75de99b384"
+        ],
+        "94a5814f-6a58-4e6c-8f33-708cf4285674": [
+            "b37a3428-10f8-45bf-8736-3362b9ba3ef6"
+        ],
+        "2eda1b39-c44a-45e7-8734-d6cf0ff8f3d0": [
+            "b489c57a-5143-451a-9d10-6d490fd69d5f"
+        ],
+        "e0f765ab-0366-4875-a7c9-ea20537ce1d5": [
+            "b5755093-e392-4606-a910-c653a82a2658"
+        ],
+        "98cc37d2-be85-4373-863e-e202ef65eb62": [
+            "b5863d9a-1c15-4607-bf21-62a13c7a19e4"
+        ],
+        "69387e88-0c9c-4f52-a199-4620e3d53872": [
+            "b694238a-54c0-427b-bf9e-013120ee5fe7"
+        ],
+        "d8f7e54e-fcff-467e-b414-f602a1bc327e": [
+            "b76feaf1-9019-4bdf-a7fa-475ee170cb8f"
+        ],
+        "9280e286-5a1a-4a86-bf32-5a2fdcc215e8": [
+            "b9808d05-9606-4f8d-ab84-f9ad69d9e518"
+        ],
+        "43108dc3-7dff-4bb6-b19c-0007e7769589": [
+            "b9d80d49-1567-431b-8fc2-b37946758493"
+        ],
+        "d16c0ab0-7369-4c1b-b033-76fd33f80c18": [
+            "b9ed741e-6214-4d49-9664-721a614a549a"
+        ],
+        "374b9245-e040-4c1e-85df-1b9ca75a3457": [
+            "baa2c7c1-7ac5-4e3c-ad00-8371274f1273"
+        ],
+        "07c17202-8099-451e-af2f-b96a392bf3e1": [
+            "bfc4f755-c439-4d63-bf11-a40e8c60ca46"
+        ],
+        "2d9b57ed-3d66-4e34-9c38-111ddb4496ef": [
+            "c490e713-8e91-4d15-acee-8c9d7bc4a391"
+        ],
+        "8a0902ad-45e2-474f-a8c4-e79189fb4bdf": [
+            "c514537d-b376-46b6-9af5-f3bfa5f25c7c"
+        ],
+        "a16cb7e2-2d6c-488b-84d2-5c32391851bf": [
+            "c51f31f6-ad33-482e-bc5e-9fce0e49cf97"
+        ],
+        "ab35ef31-c3cc-4a06-b698-18dcb576034b": [
+            "c53f6713-c2f8-4179-97c1-27678ae3b315"
+        ],
+        "9e9942a4-9982-4f96-8534-3bcf72c473aa": [
+            "c55c0140-3e4b-4bcb-bc86-b5edfc4215fb"
+        ],
+        "9cbbffab-279b-4cfd-b8c6-5af86292167c": [
+            "c616530c-d83a-4d68-9250-360b39c2c6b5"
+        ],
+        "36fef46b-95e0-41d2-9944-d84d0603bb61": [
+            "c7b9c232-2cf9-46f3-8d93-1da383e35e9d"
+        ],
+        "f42fc1ec-711d-48de-a52e-8f935d1aaa03": [
+            "c82954c8-4cb0-4924-ac8b-a88b96d63952"
+        ],
+        "c347dc79-7626-49e5-b1a2-f1a1ec459c9a": [
+            "c884e7c6-19f1-4ac4-b2d8-0d4a28610e47"
+        ],
+        "d500e48f-935a-4674-b663-ea22330d487b": [
+            "c8c8260e-bbe7-4a6a-8f49-48f22076ec35"
+        ],
+        "3cf5bfd9-47c9-45da-8e63-ccec4728d660": [
+            "cb32987e-0f17-4354-a00b-bd9ff85beaf0"
+        ],
+        "298167a6-79ca-4c3a-9330-024a3c82bc62": [
+            "cbc5080f-1210-4ea8-9303-c16521ee992f"
+        ],
+        "6e9f2bc3-80b5-4381-a896-88ea30124024": [
+            "ccb4001d-0d52-4be2-98b2-423c3997eeff"
+        ],
+        "8c5e944e-f4ce-4f49-8672-8eb4ac95694f": [
+            "cd45ea3c-9400-4346-9efc-88b2a5f70b1a"
+        ],
+        "cfb786aa-187c-4280-ad9b-ebf720940c6e": [
+            "d0453fe8-38b6-438d-a346-ec6821576018"
+        ],
+        "98bd33b3-27b6-4c71-9b54-8193e8d8d2c6": [
+            "d1b51413-f317-48b2-abfe-bdea133496ca"
+        ],
+        "bfc8941a-7307-4547-8864-fe6e0e1b52e5": [
+            "d227eff7-fde3-4f2a-9d65-36cde13f786e"
+        ],
+        "3892c449-c900-4d23-a6e1-697db82d80da": [
+            "d29449ee-5258-4b85-9b1b-baf22aa9f609"
+        ],
+        "bd1536db-d42d-4130-ba58-7d3725d9c4df": [
+            "d3d76298-33fb-4a38-80ca-98d8e8ae52cf"
+        ],
+        "2118509a-9d87-49ff-aade-ba32f6c26c50": [
+            "d73df855-b414-423a-b39d-a84e5c76fcad"
+        ],
+        "49adce6d-0bdf-4cde-84b4-47222ff500f7": [
+            "d752835d-86b8-4e93-9d52-7cbd09d0833c"
+        ],
+        "a5a5f1d2-03b2-4dae-9e23-e8cae70b2cb1": [
+            "d77cbad8-b2db-4d25-a242-d1b2ee46e92b"
+        ],
+        "84014fce-0066-4630-a989-063ead8044ab": [
+            "dd9b8a6a-77cd-4aee-a212-7b72c3a93224"
+        ],
+        "fc498947-65f8-45ba-b6b1-3fe6f79d446f": [
+            "df2f62fb-9b05-418d-8b0e-54f1397188b3"
+        ],
+        "ea07e3fa-ea65-489f-a865-42f27077deea": [
+            "dfc01548-1d00-4529-9e86-97ab6cddbe8e"
+        ],
+        "683601d0-8bb5-4dde-a8bf-ad71b619cca3": [
+            "dfcf3388-5876-4a47-87ea-8dc6bccfcc3d"
+        ],
+        "b89814f0-d90b-47c5-a0b6-da36506b4208": [
+            "e0813114-3a39-43d4-9347-36225824e29e"
+        ],
+        "b8f42fa1-36f5-4236-bb27-9c4a257d137f": [
+            "e0e6bd14-069f-4bbf-9dc9-e62dd8cf0bfe"
+        ],
+        "36cd27ee-1cb9-44cb-904d-74659cfbc786": [
+            "e1a99950-8474-4e11-9c10-297dd269a4f5"
+        ],
+        "25636573-82b6-4dae-bc4f-acc9d45f00cb": [
+            "e1b3400f-9981-4a1c-abc1-1fa9d22e5a26"
+        ],
+        "7bacc599-a316-4f66-9def-1a0ca2b42499": [
+            "e221519a-6747-4a47-b514-9c1893a66083"
+        ],
+        "e49fb61f-0c20-4570-94c3-d9495503833b": [
+            "e27e274c-9743-42f3-9260-bb3eb44e4ef7"
+        ],
+        "e6353b66-ef34-4b8e-afab-8fa658c0aa38": [
+            "e2a07882-766f-4068-909b-005fe966cee9"
+        ],
+        "4df3e615-272b-4415-9f2a-d75f4ddb448f": [
+            "e2a3d0ba-aea8-4a9e-8c3e-72d8785c24db"
+        ],
+        "1e296cd1-6a4a-4d02-93b1-c4191bd98644": [
+            "e3c396a9-9c6d-40d1-ae4d-f49a9da5619e"
+        ],
+        "8a3bd9ff-9f59-41c4-b674-dcfa3983e929": [
+            "e440a8f9-c504-4757-b4e0-4dce816dc598"
+        ],
+        "174daaec-228d-44e0-a39f-216c1ec8e749": [
+            "e7429165-5730-4861-8a5e-ad48e0747c21"
+        ],
+        "b4fc9160-ed22-4290-9cd1-d25d7e5501dd": [
+            "efebb688-63da-4008-8121-43289af87103"
+        ],
+        "68a26d79-22c7-47ad-bc24-91dbc0b4cce3": [
+            "f8d93d51-4006-4e24-9b66-49ea38f5213a"
+        ],
+        "56fc1eb8-1db0-49b7-8013-9fc3b3bfda22": [
+            "fc13e392-fe71-40cc-92bb-2f8ecc5f5274"
+        ],
+        "818f50b8-4bc9-4ffd-8968-dfd7fca00fac": [
+            "fd9e03a5-a3c8-4dcc-8f81-d0d1aeca927c"
+        ],
+        "0754ff63-673f-43b9-8c22-f66593f2c114": [
+            "fef9be2b-446e-4df2-8c27-c75f201785a8"
+        ]
+    },
+    "mode": "text"
+}

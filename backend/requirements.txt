@@ -1,0 +1,15 @@
+fastapi[standard]
+fastembed
+jupyter
+langfuse
+llama-index
+llama-index-embeddings-fastembed
+llama-index-llms-ollama
+llama-index-readers-file 
+llama-index-retrievers-bm25
+llama-index-vector-stores-qdrant
+python-dotenv
+qdrant_client 
+sentence-transformers
+sqlalchemy
+psycopg2-binary
